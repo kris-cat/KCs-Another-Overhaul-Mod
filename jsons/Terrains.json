@@ -59,106 +59,81 @@
 	{
 		"name": "Snow","type": "Land","movementCost": 1,"RGB": [204, 204, 204], 
 		"uniques": [
-            "Occurs at temperature between [-1] and [-0.9] and humidity between [0] and [1]",
-			"Occurs at temperature between [-0.9] and [-0.8] and humidity between [0] and [0.7]",
-			"Occurs at temperature between [-0.8] and [-0.7] and humidity between [0] and [0.3]",
+			"Occurs at temperature between [-1] and [-0.9] and humidity between [0] and [1]",
+			"Occurs at temperature between [-0.9] and [-0.8] and humidity between [0] and [0.8]",
+			"Occurs at temperature between [-0.8] and [-0.7] and humidity between [0] and [0.5]",
+			"Occurs at temperature between [-0.7] and [-0.6] and humidity between [0] and [0.2]",
             "Always Fertility [-1] for Map Generation",
             "Considered [Undesirable] when determining start locations",]
 	},
 	{
 		"name": "Tundra","type": "Land","food": 1,"movementCost": 1,"RGB": [40, 71, 31], 
 		"uniques": [
-            "Occurs at temperature between [-0.9] and [-0.8] and humidity between [0.7] and [1]",
-			"Occurs at temperature between [-0.8] and [-0.7] and humidity between [0.3] and [1]",
-			"Occurs at temperature between [-0.7] and [-0.6] and humidity between [0] and [1]",
-			"Occurs at temperature between [-0.6] and [-0.5] and humidity between [0] and [0.7]",
-			"Occurs at temperature between [-0.5] and [-0.4] and humidity between [0] and [0.3]",
+			"Occurs at temperature between [-0.9] and [-0.8] and humidity between [0.8] and [1]",
+			"Occurs at temperature between [-0.8] and [-0.7] and humidity between [0.5] and [1]",
+			"Occurs at temperature between [-0.7] and [-0.6] and humidity between [0.2] and [1]",
+			"Occurs at temperature between [-0.6] and [-0.5] and humidity between [0] and [0.8]",
+			"Occurs at temperature between [-0.5] and [-0.4] and humidity between [0] and [0.5]",
+			"Occurs at temperature between [-0.4] and [-0.3] and humidity between [0] and [0.2]",
 			"Always Fertility [-1] for Map Generation",
             "Considered [Undesirable] when determining start locations",
 			"Becomes [Floodplain] when adjacent to [River]",
-			"Becomes [Arctic Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Mountain] tiles>",
-			"Becomes [Arctic Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [1] to [6] neighboring [Hill] tiles>",
-		]
-	},
-	{
-		"name": "Continental","type": "Land","food": 1,"production": 1,"movementCost": 1,"RGB": [29, 117, 92], 
-		"uniques": [
-            "Occurs at temperature between [-0.6] and [-0.5] and humidity between [0.7] and [1]",
-			"Occurs at temperature between [-0.5] and [-0.4] and humidity between [0.3] and [1]",
-			"Occurs at temperature between [-0.4] and [-0.2] and humidity between [0] and [1]",
-			"Occurs at temperature between [-0.2] and [0.2] and humidity between [0] and [0.5]",
-			"Becomes [Temperate Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Mountain] tiles>",
-			"Becomes [Temperate Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [1] to [6] neighboring [Hill] tiles>",
 		]
 	},
 	{
 		"name": "Grassland","type": "Land","food": 2,"movementCost": 1,"RGB": [31, 156, 67],
         "uniques": [
-			"Occurs at temperature between [-0.2] and [0.2] and humidity between [0.5] and [1]",
-			"Occurs at temperature between [0.2] and [0.5] and humidity between [0] and [1]",
-			"Occurs at temperature between [0.5] and [0.6] and humidity between [0.5] and [1]",
-			"Becomes [Temperate Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Mountain] tiles>",
-			"Becomes [Temperate Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [1] to [6] neighboring [Hill] tiles>",
+			"Occurs at temperature between [-0.6] and [-0.5] and humidity between [0.8] and [1]",
+			"Occurs at temperature between [-0.5] and [-0.4] and humidity between [0.5] and [1]",
+			"Occurs at temperature between [-0.4] and [-0.3] and humidity between [0.2] and [1]",
+			"Occurs at temperature between [-0.3] and [-0.1] and humidity between [0] and [1]",
+			"Occurs at temperature between [-0.1] and [0.1] and humidity between [0.2] and [1]",
+			"Occurs at temperature between [0.1] and [0.2] and humidity between [0.3] and [1]",
+			"Occurs at temperature between [0.2] and [0.4] and humidity between [0.4] and [1]",
+			"Occurs at temperature between [0.4] and [0.5] and humidity between [0.5] and [1]",
+			"Occurs at temperature between [0.5] and [0.6] and humidity between [0.6] and [1]",
 		]
     },
 	{
-		"name": "Plains","type": "Land","food": 1,"movementCost": 1,"RGB": [175, 208, 149],
+		"name": "Plains","type": "Land","food": 1,"production": 1,"movementCost": 1,"RGB": [175, 208, 149],
         "uniques": [
-			"Occurs at temperature between [0.5] and [0.6] and humidity between [0] and [0.5]",
-			"Occurs at temperature between [0.8] and [0.9] and humidity between [0.2] and [0.5]",
-			"Occurs at temperature between [0.9] and [1] and humidity between [0] and [0.1]",
+			"Occurs at temperature between [-0.1] and [0.1] and humidity between [0] and [0.2]",
+			"Occurs at temperature between [0.1] and [0.2] and humidity between [0] and [0.3]",
+			"Occurs at temperature between [0.2] and [0.3] and humidity between [0] and [0.4]",
+			"Occurs at temperature between [0.3] and [0.4] and humidity between [0.1] and [0.4]",
+			"Occurs at temperature between [0.4] and [0.5] and humidity between [0.2] and [0.5]",
+			"Occurs at temperature between [0.5] and [0.6] and humidity between [0.4] and [0.6]",
+			"Occurs at temperature between [0.6] and [0.7] and humidity between [0.5] and [0.6]",
+			"Occurs at temperature between [0.7] and [0.8] and humidity between [0.4] and [0.6]",
+			"Occurs at temperature between [0.8] and [0.9] and humidity between [0.1] and [0.5]",
+			"Occurs at temperature between [0.9] and [1] and humidity between [0] and [0.2]",
 			"Becomes [Floodplain] when adjacent to [River]",
-			"Becomes [Arid Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Mountain] tiles>",
-			"Becomes [Arid Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [1] to [6] neighboring [Hill] tiles>",
 		]
     },
 	{
-		"name": "Desert","type": "Land","movementCost": 1,"RGB": [245, 223, 166],
+		"name": "Desert","type": "Land","production": 1,"movementCost": 1,"RGB": [245, 223, 166],
         "uniques": [
-			"Occurs at temperature between [0.6] and [0.8] and humidity between [0] and [0.5]",
-			"Occurs at temperature between [0.8] and [0.9] and humidity between [0] and [0.2]",
+			"Occurs at temperature between [0.3] and [0.4] and humidity between [0] and [0.1]",
+			"Occurs at temperature between [0.4] and [0.5] and humidity between [0] and [0.2]",
+			"Occurs at temperature between [0.5] and [0.6] and humidity between [0] and [0.4]",
+			"Occurs at temperature between [0.6] and [0.7] and humidity between [0] and [0.5]",
+			"Occurs at temperature between [0.7] and [0.8] and humidity between [0] and [0.4]",
+			"Occurs at temperature between [0.8] and [0.9] and humidity between [0] and [0.1]",
 			"Becomes [Floodplain] when adjacent to [River]",
-			"Becomes [Arid Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Mountain] tiles>",
-			"Becomes [Arid Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [1] to [6] neighboring [Hill] tiles>",
-		]
-    },
-	{
-		"name": "Subtropical","type": "Land","food": 1,"production": 1,"movementCost": 1,"RGB": [163, 236, 105],
-        "uniques": [
-			"Occurs at temperature between [0.6] and [0.8] and humidity between [0.5] and [1]",
-			"Becomes [Tropical Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Mountain] tiles>",
-			"Becomes [Tropical Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [1] to [6] neighboring [Hill] tiles>",
 		]
     },
 	{
 		"name": "Tropical","type": "Land","food": 2,"movementCost": 1,"RGB": [111, 181, 56],
         "uniques": [
+			"Occurs at temperature between [0.6] and [0.8] and humidity between [0.6] and [1]",
 			"Occurs at temperature between [0.8] and [0.9] and humidity between [0.5] and [1]",
-			"Occurs at temperature between [0.9] and [1] and humidity between [0.1] and [1]",
-			"Becomes [Tropical Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Mountain] tiles>",
-			"Becomes [Tropical Highland] when adjacent to [Mountain] <in [Hill] tiles> <with [1] to [6] neighboring [Hill] tiles>",
+			"Occurs at temperature between [0.9] and [1] and humidity between [0.2] and [1]",
 		]
     },
-	{
-		"name": "Arctic Highland","type": "Land","food": 1,"movementCost": 1,"RGB": [173, 132, 99], 
-		"uniques": ["Doesn't generate naturally"]
-	},
-	{
-		"name": "Temperate Highland","type": "Land","food": 1,"production": 1,"movementCost": 1,"RGB": [21, 132, 90], 
-		"uniques": ["Doesn't generate naturally"]
-	},
-	{
-		"name": "Tropical Highland","type": "Land","food": 2,"movementCost": 1,"RGB": [45, 153, 49], 
-		"uniques": ["Doesn't generate naturally"]
-	},
-	{
-		"name": "Arid Highland","type": "Land","production": 1,"movementCost": 1,"RGB": [236, 177, 59], 
-		"uniques": ["Doesn't generate naturally"]
-	},
 	//Elevation
 	{
 		"name": "Hill","type": "TerrainFeature","production": 1,"movementCost": 2,"defenceBonus": 0.25,"RGB": [105,125,72],
-		"occursOn": ["Snow","Tundra","Continental","Grassland","Plains","Desert","Subtropical","Tropical","Arctic Highland","Temperate Highland","Tropical Highland","Arid Highland"],
+		"occursOn": ["Snow","Tundra","Grassland","Plains","Desert","Tropical"],
 		"uniques": ["Rough terrain",
 			"[+5] Strength for cities built on this terrain",
 			"Has an elevation of [1] for visibility calculations",
@@ -192,7 +167,7 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Tundra","Continental","Grassland","Plains","Subtropical","Hill","Arctic Highland","Temperate Highland"],
+		"occursOn": ["Hill","Tundra","Grassland","Plains",],
 		"uniques": ["Rough terrain", "Vegetation",
 					"Provides a one-time bonus of [+30 Production] to the closest city when cut down <(modified by game speed)>",
 					"Blocks line-of-sight from tiles at same elevation",
@@ -210,7 +185,7 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Subtropical","Tropical","Hill","Tropical Highland"],
+		"occursOn": ["Tropical"],
 		"uniques": [
 			"Rough terrain", "Vegetation",
 			"Blocks line-of-sight from tiles at same elevation",
