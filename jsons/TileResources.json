@@ -14,15 +14,15 @@
 	{"name": "Rice", "resourceType": "Bonus","improvement": "Farm", "improvementStats": {"food": 1}, "terrainsCanBeFoundOn": ["Grassland"],"uniques": ["Grain"]},
 	{"name": "Maize", "resourceType": "Bonus","improvement": "Farm", "improvementStats": {"gold": 1}, "terrainsCanBeFoundOn": ["Grassland"],"uniques": ["Grain"]},
 	//Livestock//
-	{"name": "Cattle", "resourceType": "Bonus","improvement": "Pasture", "improvementStats": {"food": 1},"terrainsCanBeFoundOn": ["Continental","Grassland","Plains","Subtropical"],},
+	{"name": "Cattle", "resourceType": "Bonus","improvement": "Pasture", "improvementStats": {"food": 1},"terrainsCanBeFoundOn": ["Grassland","Plains"],},
 	{"name": "Sheep", "resourceType": "Bonus","improvement": "Pasture", "improvementStats": {"food": 1},"terrainsCanBeFoundOn": ["Hill"],},
 	{"name": "Pigs", "resourceType": "Bonus","improvement": "Pasture", "improvementStats": {"food": 1},"terrainsCanBeFoundOn": ["Grassland","Jungle"],},
-	{"name": "Horses", "resourceType": "Bonus","improvement": "Pasture", "improvementStats": {"production": 1},"terrainsCanBeFoundOn": ["Continental","Grassland","Plains"]},
+	{"name": "Horses", "resourceType": "Bonus","improvement": "Pasture", "improvementStats": {"production": 1},"terrainsCanBeFoundOn": ["Grassland","Plains"]},
 	{"name": "Camels", "resourceType": "Bonus","improvement": "Pasture", "improvementStats": {"gold": 1},"terrainsCanBeFoundOn": ["Desert"]},
 	//Wild Animals//
 	{"name": "Deer", "resourceType": "Bonus","improvement": "Camp", "improvementStats": {"food": 1},"terrainsCanBeFoundOn": ["Tundra","Forest"],},
 	{"name": "Foxes", "resourceType": "Bonus","improvement": "Camp", "improvementStats": {"gold": 1},"terrainsCanBeFoundOn": ["Tundra","Forest"],},
-	{"name": "Bison", "resourceType": "Bonus","improvement": "Camp", "improvementStats": {"food": 1},"terrainsCanBeFoundOn": ["Continental","Grassland","Plains"],},
+	{"name": "Bison", "resourceType": "Bonus","improvement": "Camp", "improvementStats": {"food": 1},"terrainsCanBeFoundOn": ["Grassland","Plains"],},
 	//Rocks//
 	{"name": "Stone", "resourceType": "Bonus","improvement": "Quarry", "improvementStats": {"production": 1},"terrainsCanBeFoundOn": ["Grassland","Plains"],},
 	{"name": "Peat", "resourceType": "Bonus","improvement": "Quarry", "improvementStats": {"production": 1}, "terrainsCanBeFoundOn": ["Floodplain"],},
