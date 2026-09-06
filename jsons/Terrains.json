@@ -178,7 +178,7 @@
 		],
 	},
 	{
-		"name": "Jungle",
+		"name": "Rainforest",
 		"type": "TerrainFeature",
 		"food": 2,
 		"movementCost": 2,
