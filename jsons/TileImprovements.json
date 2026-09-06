@@ -92,7 +92,7 @@
         "civilopediaText": [{"text":"Provides a one-time Production bonus depending on distance to the closest city once finished"}]
 	},
 	{
-		"name": "Remove Jungle","turnsToBuild": 8,"techRequired": "Iron Working",
+		"name": "Remove Rainforest","turnsToBuild": 8,"techRequired": "Iron Working",
 		"uniques": ["Can be built outside your borders","Excluded from map editor"],
 		"shortcutKey": "X",
         "civilopediaText": [{"text":"Provides a one-time Production bonus depending on distance to the closest city once finished"}]
