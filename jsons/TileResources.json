@@ -16,7 +16,7 @@
 	//Livestock//
 	{"name": "Cattle", "resourceType": "Bonus","improvement": "Pasture", "improvementStats": {"food": 1},"terrainsCanBeFoundOn": ["Grassland","Plains"],},
 	{"name": "Sheep", "resourceType": "Bonus","improvement": "Pasture", "improvementStats": {"food": 1},"terrainsCanBeFoundOn": ["Hill"],},
-	{"name": "Pigs", "resourceType": "Bonus","improvement": "Pasture", "improvementStats": {"food": 1},"terrainsCanBeFoundOn": ["Grassland","Jungle"],},
+	{"name": "Pigs", "resourceType": "Bonus","improvement": "Pasture", "improvementStats": {"food": 1},"terrainsCanBeFoundOn": ["Grassland","Rainforest"],},
 	{"name": "Horses", "resourceType": "Bonus","improvement": "Pasture", "improvementStats": {"production": 1},"terrainsCanBeFoundOn": ["Grassland","Plains"]},
 	{"name": "Camels", "resourceType": "Bonus","improvement": "Pasture", "improvementStats": {"gold": 1},"terrainsCanBeFoundOn": ["Desert"]},
 	//Wild Animals//
@@ -32,11 +32,11 @@
 	{"name": "Quartz", "resourceType": "Bonus","improvement": "Mine", "improvementStats": {"gold": 1},"terrainsCanBeFoundOn": ["Hill","Desert"],},
 	{"name": "Obsidian", "resourceType": "Bonus","improvement": "Mine", "improvementStats": {"science": 1},"terrainsCanBeFoundOn": ["Hill"],},
 	//Lumber//
-	{"name": "Hardwood", "resourceType": "Bonus","improvement": "Lumber Camp", "improvementStats": {"production": 1},"terrainsCanBeFoundOn": ["Forest","Jungle"],}
+	{"name": "Hardwood", "resourceType": "Bonus","improvement": "Lumber Camp", "improvementStats": {"production": 1},"terrainsCanBeFoundOn": ["Forest","Rainforest"],}
 
 	//Luxury Resources
 	//Gemstones//
-	{"name": "Diamond","resourceType": "Luxury","gold": 1,"improvement": "Mine","improvementStats": {"gold": 1, "culture": 1, "production": -1},"terrainsCanBeFoundOn": ["Forest","Jungle","Hill"],"uniques": []},
+	{"name": "Diamond","resourceType": "Luxury","gold": 1,"improvement": "Mine","improvementStats": {"gold": 1, "culture": 1, "production": -1},"terrainsCanBeFoundOn": ["Forest","Rainforest","Hill"],"uniques": []},
 	{"name": "Jade","resourceType": "Luxury","gold": 1,"improvement": "Mine","improvementStats": {"gold": 1, "culture": 1, "production": -1},"terrainsCanBeFoundOn": ["Forest","Hill"],"uniques": []},
 	{"name": "Amber","resourceType": "Luxury","gold": 1,"improvement": "Mine","improvementStats": {"gold": 1, "culture": 1, "production": -1},"terrainsCanBeFoundOn": ["Forest","Hill"],"uniques": []},
 	{"name": "Lapis Lazuli","resourceType": "Luxury","gold": 1,"improvement": "Mine","improvementStats": {"gold": 1, "culture": 1, "production": -1},"terrainsCanBeFoundOn": ["Hill"],"uniques": []},
