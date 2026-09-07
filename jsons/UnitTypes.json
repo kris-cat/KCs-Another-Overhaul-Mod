@@ -1,4 +1,5 @@
 [
+    //Civilian
     {
          "name": "Civilian Unit",
          "movementType": "Land"
@@ -7,12 +8,17 @@
          "name": "Civilian Water Unit",
          "movementType": "Water"
     },
+    //Land Military
     {
         "name": "Scouting Unit",
         "movementType": "Land"
     },
     {
-        "name": "Frontline Unit",
+        "name": "Melee Unit",
+        "movementType": "Land"
+    },
+    {
+        "name": "Anti-Melee Unit",
         "movementType": "Land"
     },
     {
@@ -20,7 +26,11 @@
         "movementType": "Land"
     },
     {
-        "name": "Mobile Unit",
+        "name": "Light Mobile Unit",
+        "movementType": "Land"
+    },
+    {
+        "name": "Heavy Mobile Unit",
         "movementType": "Land"
     },
     {
