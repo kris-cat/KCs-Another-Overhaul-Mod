@@ -4,373 +4,436 @@ size: 1024, 128
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+TileSets/FantasyHex/Tiles/Amber
+  rotate: false
+  xy: 4, 86
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Arctic Coast
   rotate: false
-  xy: 4, 92
+  xy: 4, 50
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Arctic Mountain
   rotate: false
-  xy: 4, 48
+  xy: 44, 78
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Arctic Ocean
   rotate: false
-  xy: 44, 92
+  xy: 4, 14
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Arid Mountain
   rotate: false
-  xy: 4, 4
+  xy: 84, 78
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Camels
   rotate: false
-  xy: 44, 56
+  xy: 124, 86
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Clay
   rotate: false
-  xy: 84, 92
+  xy: 164, 86
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Cold Coast
   rotate: false
-  xy: 44, 20
+  xy: 204, 86
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Cold Ocean
   rotate: false
-  xy: 84, 56
+  xy: 244, 86
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Desert
   rotate: false
-  xy: 124, 92
+  xy: 284, 86
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/DesertHill
   rotate: false
-  xy: 84, 20
+  xy: 324, 86
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Diamonds
+  rotate: false
+  xy: 364, 86
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Forest
   rotate: false
-  xy: 124, 53
+  xy: 404, 83
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/GrasslandForest
   rotate: false
-  xy: 124, 53
+  xy: 404, 83
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Foxes
   rotate: false
-  xy: 164, 92
+  xy: 444, 86
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Geothermal Fissure
   rotate: false
-  xy: 164, 56
+  xy: 484, 86
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Grassland
   rotate: false
-  xy: 204, 92
+  xy: 524, 86
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/GrasslandFarm
   rotate: false
-  xy: 204, 56
+  xy: 564, 86
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/GrasslandHill
   rotate: false
-  xy: 244, 92
+  xy: 604, 86
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/GrasslandHillFarm
   rotate: false
-  xy: 244, 56
+  xy: 644, 86
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Jade
+  rotate: false
+  xy: 724, 86
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Lapis Lazuli
+  rotate: false
+  xy: 764, 86
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Lukewarm Coast
   rotate: false
-  xy: 284, 92
+  xy: 804, 86
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Lukewarm Ocean
   rotate: false
-  xy: 284, 56
+  xy: 844, 86
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Maize
   rotate: false
-  xy: 324, 92
+  xy: 884, 86
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Obsidian
   rotate: false
-  xy: 324, 56
+  xy: 964, 86
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Pigs
   rotate: false
-  xy: 364, 92
+  xy: 124, 50
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Plains
   rotate: false
-  xy: 364, 56
+  xy: 204, 50
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/PlainsFarm
   rotate: false
-  xy: 404, 92
+  xy: 244, 50
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/PlainsHill
   rotate: false
-  xy: 404, 56
+  xy: 284, 50
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/PlainsHillFarm
   rotate: false
-  xy: 444, 92
+  xy: 324, 50
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Quartz
   rotate: false
-  xy: 444, 56
+  xy: 364, 50
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Rainforest
   rotate: false
-  xy: 484, 88
+  xy: 404, 43
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Reef
   rotate: false
-  xy: 524, 92
+  xy: 444, 50
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Rice
   rotate: false
-  xy: 564, 92
+  xy: 484, 50
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Rocky Shore
   rotate: false
-  xy: 604, 92
+  xy: 524, 50
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Rubies
+  rotate: false
+  xy: 564, 50
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Salmon
   rotate: false
-  xy: 644, 92
+  xy: 604, 50
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Savannah
   rotate: false
-  xy: 684, 89
+  xy: 644, 47
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Semi-Arid Mountain
   rotate: false
-  xy: 724, 84
+  xy: 684, 42
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Snow
   rotate: false
-  xy: 764, 92
+  xy: 764, 50
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/SnowHill
   rotate: false
-  xy: 804, 92
+  xy: 804, 50
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Subarctic Mountain
   rotate: false
-  xy: 844, 84
+  xy: 844, 42
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Taiga
   rotate: false
-  xy: 884, 88
+  xy: 884, 46
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Temperate Mountain
   rotate: false
-  xy: 924, 84
+  xy: 924, 42
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/TerraceFarm
   rotate: false
-  xy: 964, 92
+  xy: 964, 50
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tin
   rotate: false
-  xy: 764, 56
+  xy: 84, 42
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tropical
   rotate: false
-  xy: 804, 56
+  xy: 124, 14
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tropical Mountain
   rotate: false
-  xy: 884, 44
+  xy: 164, 4
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/TropicalFarm
   rotate: false
-  xy: 964, 56
+  xy: 204, 14
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/TropicalHill
   rotate: false
-  xy: 524, 56
+  xy: 244, 14
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/TropicalHillFarm
   rotate: false
-  xy: 564, 56
+  xy: 284, 14
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tuna
   rotate: false
-  xy: 604, 56
+  xy: 324, 14
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra
   rotate: false
-  xy: 644, 56
+  xy: 364, 14
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/TundraHill
   rotate: false
-  xy: 684, 53
+  xy: 404, 7
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Warm Coast
   rotate: false
-  xy: 724, 48
+  xy: 724, 14
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Warm Ocean
   rotate: false
-  xy: 764, 20
+  xy: 764, 14
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Wheat
   rotate: false
-  xy: 804, 20
+  xy: 804, 14
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Heavy Spearman
+  rotate: false
+  xy: 684, 86
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Man-At-Arms
+  rotate: false
+  xy: 924, 86
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pikeman
+  rotate: false
+  xy: 164, 48
+  size: 32, 30
+  orig: 32, 30
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Slinger
+  rotate: false
+  xy: 724, 50
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
