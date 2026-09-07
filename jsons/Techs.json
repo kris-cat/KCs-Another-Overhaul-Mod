@@ -1,7 +1,7 @@
 [
     //Ancient Era
 	{
-        "columnNumber": 0,"era": "Ancient Era","techCost": 15,"buildingCost": 30,"wonderCost": 185,"techs": 
+        "columnNumber": 0,"era": "Ancient Era","techCost": 15,"buildingCost": 30,"wonderCost": 175,"techs": 
         [
             {
                 "name": "Fishing","row": 1,
@@ -29,7 +29,7 @@
 		]
     },
 	{
-        "columnNumber": 1,"era": "Ancient Era","techCost": 30,"buildingCost": 50,"wonderCost": 185,"techs": 
+        "columnNumber": 1,"era": "Ancient Era","techCost": 25,"buildingCost": 50,"wonderCost": 175,"techs": 
         [
             {
                 "name": "Sailing","row": 1,"prerequisites": ["Fishing"],
@@ -50,10 +50,10 @@
 		]
     },
 	{
-        "columnNumber": 2,"era": "Ancient Era","techCost": 40,"buildingCost": 50,"wonderCost": 185,"techs": 
+        "columnNumber": 2,"era": "Ancient Era","techCost": 40,"buildingCost": 65,"wonderCost": 175,"techs": 
         [
 			{
-                "name": "Calendar","row": 1,"uniques": ["Unavailable <before discovering [Sailing]> <before discovering [Irrigation]> <hidden from users>"]
+                "name": "Calendar","row": 2,"uniques": ["Unavailable <before discovering [Sailing]> <before discovering [Irrigation]> <hidden from users>"]
 				"civilopediaText": [
 					{"text": "Requires Sailing","link": "Technologies/Sailing"},
 					{"text": "or Irrigation","link": "Technologies/Irrigation"}
@@ -81,7 +81,7 @@
 		]
     },
 	{
-        "columnNumber": 3,"era": "Ancient Era","techCost": 50,"buildingCost": 75,"wonderCost": 185,"techs": 
+        "columnNumber": 3,"era": "Ancient Era","techCost": 60,"buildingCost": 75,"wonderCost": 175,"techs": 
         [
 			{
                 "name": "Mathematics","row": 3,"prerequisites": ["Writing"],
@@ -100,5 +100,55 @@
 			},
 		]
     },
-
+	//Classical Era
+	{
+        "columnNumber": 4,"era": "Classical Era","techCost": 75,"buildingCost": 100,"wonderCost": 225,"techs": 
+        [
+			{
+                "name": "Celestial Navigation","row": 1,"prerequisites": ["Sailing","Mathematics"],
+				"uniques": []
+			},
+			{
+                "name": "Philosophy","row": 3,"prerequisites": ["Mathematics"],
+				"uniques": []
+			},
+			{
+                "name": "Engineering","row": 8,"prerequisites": ["Craftsmanship"],
+				"uniques": []
+			},
+			{
+                "name": "Metal Casting","row": 11,"prerequisites": ["Iron Working"],
+				"uniques": []
+			},
+		]
+    },
+	{
+        "columnNumber": 5,"era": "Classical Era","techCost": 105,"buildingCost": 125,"wonderCost": 225,"techs": 
+        [
+			{
+                "name": "Shipbuilding","row": 1,"prerequisites": ["Celestial Navigation"],
+				"uniques": []
+			},
+			{
+                "name": "Drama and Poetry","row": 2,"prerequisites": ["Phisolophy"],
+				"uniques": []
+			},
+			{
+                "name": "Code of Laws","row": 4,"prerequisites": ["Phisolophy"],
+				"uniques": []
+			},
+			{
+                "name": "Hydrology","row": 8,"prerequisites": ["Engineering"],
+				"uniques": []
+			},
+			{
+                "name": "Construction","row": 10,"prerequisites": ["Engineering","Masonry"],
+				"uniques": []
+			},
+			{
+                "name": "Currency","row": 11,"prerequisites": ["Metal Casting"],
+				"uniques": []
+			},
+		]
+    },
 ]
