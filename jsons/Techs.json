@@ -163,6 +163,10 @@
 				"uniques": []
 			},
 			{
+                "name": "The Plough","row": 8,"prerequisites": ["Hydrology"],
+				"uniques": []
+			},
+			{
                 "name": "Machinery","row": 10,"prerequisites": ["Hydrology","Construction"],
 				"uniques": []
 			},
