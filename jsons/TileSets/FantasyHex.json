@@ -20,5 +20,12 @@
         "Tundra+Forest": ["Tundra","Taiga"],
         "Tundra+Hill+Forest": ["Tundra","TundraHill","Taiga"],
         "Tropical+Hill+Rainforest": ["Tropical","TropicalHill","Rainforest"],
+		//Farms
+		"Grassland+Farm": ["Grassland","GrasslandFarm"],
+		"Grassland+Hill+Farm": ["Grassland","GrasslandHillFarm"],
+		"Plains+Farm": ["Plains","PlainsFarm"],
+		"Plains+Hill+Farm": ["Plains","PlainsHillFarm"],
+		"Tropical+Farm": ["Tropical","TropicalFarm"],
+		"Tropical+Hill+Farm": ["Tropical","TropicalHillFarm"],
     }
 }
