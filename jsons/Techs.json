@@ -1,7 +1,7 @@
 [
     //Ancient Era
 	{
-        "columnNumber": 0,"era": "Ancient Era","techCost": 15,"buildingCost": 30,"wonderCost": 175,"techs": 
+        "columnNumber": 0,"era": "Ancient Era","techCost": 15,"buildingCost": 35,"wonderCost": 175,"techs": 
         [
             {
                 "name": "Fishing","row": 1,
@@ -29,7 +29,7 @@
 		]
     },
 	{
-        "columnNumber": 1,"era": "Ancient Era","techCost": 25,"buildingCost": 50,"wonderCost": 175,"techs": 
+        "columnNumber": 1,"era": "Ancient Era","techCost": 25,"buildingCost": 40,"wonderCost": 175,"techs": 
         [
             {
                 "name": "Sailing","row": 1,"prerequisites": ["Fishing"],
@@ -50,7 +50,7 @@
 		]
     },
 	{
-        "columnNumber": 2,"era": "Ancient Era","techCost": 40,"buildingCost": 65,"wonderCost": 175,"techs": 
+        "columnNumber": 2,"era": "Ancient Era","techCost": 40,"buildingCost": 45,"wonderCost": 175,"techs": 
         [
 			{
                 "name": "Calendar","row": 2,"uniques": ["Unavailable <before discovering [Sailing]> <before discovering [Irrigation]> <hidden from users>"]
@@ -81,7 +81,7 @@
 		]
     },
 	{
-        "columnNumber": 3,"era": "Ancient Era","techCost": 60,"buildingCost": 75,"wonderCost": 175,"techs": 
+        "columnNumber": 3,"era": "Ancient Era","techCost": 60,"buildingCost": 50,"wonderCost": 175,"techs": 
         [
 			{
                 "name": "Mathematics","row": 3,"prerequisites": ["Writing"],
@@ -102,7 +102,7 @@
     },
 	//Classical Era
 	{
-        "columnNumber": 4,"era": "Classical Era","techCost": 75,"buildingCost": 100,"wonderCost": 225,"techs": 
+        "columnNumber": 4,"era": "Classical Era","techCost": 75,"buildingCost": 60,"wonderCost": 225,"techs": 
         [
 			{
                 "name": "Celestial Navigation","row": 1,"prerequisites": ["Sailing","Mathematics"],
@@ -123,7 +123,7 @@
 		]
     },
 	{
-        "columnNumber": 5,"era": "Classical Era","techCost": 105,"buildingCost": 125,"wonderCost": 225,"techs": 
+        "columnNumber": 5,"era": "Classical Era","techCost": 105,"buildingCost": 70,"wonderCost": 225,"techs": 
         [
 			{
                 "name": "Shipbuilding","row": 1,"prerequisites": ["Celestial Navigation"],
@@ -152,14 +152,14 @@
 		]
     },
 	{
-        "columnNumber": 6,"era": "Classical Era","techCost": 145,"buildingCost": 150,"wonderCost": 225,"techs": 
+        "columnNumber": 6,"era": "Classical Era","techCost": 145,"buildingCost": 80,"wonderCost": 225,"techs": 
         [
 			{
                 "name": "Theology","row": 3,"prerequisites": ["Drama and Poetry","Code of Laws"],
 				"uniques": []
 			},
 			{
-                "name": "Civil Service","row": 6,"prerequisites": ["Code of Laws","Hydrology"],
+                "name": "Civil Service","row": 5,"prerequisites": ["Code of Laws","Hydrology"],
 				"uniques": []
 			},
 			{
@@ -173,6 +173,49 @@
 			{
                 "name": "Guilds","row": 11,"prerequisites": ["Construction","Currency"],
 				"uniques": []
+			},
+		]
+    },
+	//Post-Classical Era
+	{
+        "columnNumber": 7,"era": "Post-Classical Era","techCost": 200,"buildingCost": 100,"wonderCost": 185,"techs": 
+        [
+			{
+                "name": "Education","row": 4,"uniques": ["Unavailable <before discovering [Theology]> <before discovering [Civil Service]> <hidden from users>"]
+				"civilopediaText": [
+					{"text": "Requires Theology","link": "Technologies/Theology"},
+					{"text": "or Civil Service","link": "Technologies/Civil Service"}
+				],
+			},
+			{
+                "name": "Stirrups","row": 6,"prerequisites": ["Horseback Riding","The Plough"],
+			},
+			{
+                "name": "Physics","row": 7,"prerequisites": ["Machinery"],
+			},
+			{
+                "name": "Feudalism","row": 11,"prerequisites": ["The Plough","Guilds"],
+			},
+		]
+    },
+	{
+        "columnNumber": 8,"era": "Post-Classical Era","techCost": 235,"buildingCost": 130,"wonderCost": 185,"techs": 
+        [
+			{
+                "name": "Compass","row": 1,"prerequisites": ["Shipbuilding","Education"],
+			},
+			{
+                "name": "Alchemy","row": 4,"prerequisites": ["Education"],
+			},
+			{
+                "name": "Mechanics","row": 5,"prerequisites": ["Education","Physics"],
+			},
+			{
+                "name": "Horse Collar","row": 6,"prerequisites": ["Stirrups","Feudalism"],
+				"uniques": ["Improves movement speed on roads"]
+			},
+			{
+                "name": "Castles","row": 11,"prerequisites": ["Feudalism"],
 			},
 		]
     },
