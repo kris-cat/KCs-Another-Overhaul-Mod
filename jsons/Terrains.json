@@ -130,7 +130,8 @@
 			"Considered [Production] when determining start locations",]
 	},
 	{
-		"name": "Mountain","type": "Land","impassable": true,"production": 1,"defenceBonus": 0.25,"RGB": [102, 102, 102],
+		"name": "Mountain","type": "TerrainFeature","impassable": true,"production": 1,"defenceBonus": 0.25,"RGB": [102, 102, 102],
+		"occursOn": ["Snow","Tundra","Grassland","Plains","Desert","Tropical"],
 		"uniques": ["Rough terrain",
             "Has an elevation of [2] for visibility calculations",
             "Occurs in chains at high elevations",
