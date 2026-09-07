@@ -15,7 +15,7 @@
 	},
     //Ancient Era Buildings Column 1//
 	{
-		"name": "Cellar","food": 2,"percentStatBonus": {"food": 5},"maintenance": 1,"hurryCostModifier": 25,"requiredTech": "Pottery",
+		"name": "Granary","food": 2,"percentStatBonus": {"food": 5},"maintenance": 1,"hurryCostModifier": 25,"requiredTech": "Pottery",
 		"uniques": [],
 	},
 	{
@@ -23,7 +23,7 @@
 		"uniques": ["[+1 Gold] from [Clay] tiles [in this city]",],
 	},
     {
-		"name": "Granary","maintenance": 1,"hurryCostModifier": 40,"requiredTech": "Agriculture",
+		"name": "Miller","maintenance": 1,"hurryCostModifier": 40,"requiredTech": "Agriculture",
         "requiredNearbyImprovedResources": ["Wheat","Rice","Maize"],
 		"uniques": ["[+1 Food] from [Wheat] tiles [in this city]","[+1 Food] from [Rice] tiles [in this city]","[+1 Food] from [Maize] tiles [in this city]",],
 	},
