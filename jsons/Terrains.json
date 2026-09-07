@@ -89,6 +89,7 @@
 			"Occurs at temperature between [-0.3] and [0.3] and humidity between [0] and [1]",
 			"Occurs at temperature between [0.3] and [0.4] and humidity between [0.3] and [1]",
 			"Occurs at temperature between [0.4] and [0.7] and humidity between [0.6] and [1]",
+		]
     },
 	{
 		"name": "Plains","type": "Land","food": 1,"production": 1,"movementCost": 1,"RGB": [175, 208, 149],
