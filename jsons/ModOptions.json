@@ -4,8 +4,8 @@
         "cityStrengthFromTechsMultiplier": 1.0,
         "cityStrengthFromTechsExponent": 1.0,
         "cityStrengthFromTechsFullMultiplier": 1.0,
-        "cityWorkRange": 4.0,
-        "cityExpandRange": 4.0,
-        "minimalCityDistance": 4.0,
+        "cityWorkRange": 3.0,
+        "cityExpandRange": 3.0,
+        "minimalCityDistance": 3.0,
     }
 }
