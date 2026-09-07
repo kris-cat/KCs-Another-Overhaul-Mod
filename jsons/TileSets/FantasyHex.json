@@ -1,0 +1,24 @@
+{
+    "useColorAsBaseTerrain": "false",
+    "fallbackTileSet": null,
+    "ruleVariants": {
+		// River pseudo-tile used in Civilopedia display only
+		"Grassland+River": ["Plains","River-BottomLeft","River-Bottom","River-BottomRight"],
+
+        //Hills
+        "Grassland+Hill": ["Grassland","GrasslandHill"],
+        "Plains+Hill": ["Plains","PlainsHill"],
+        "Desert+Hill": ["Desert","DesertHill"],
+        "Tropical+Hill": ["Tropical","TropicalHill"],
+        "Tundra+Hill": ["Tundra","TundraHill"],
+        "Snow+Hill": ["Snow","SnowHill"],
+        //Vegetation
+        "Grassland+Forest": ["Grassland","GrasslandForest"],
+        "Grassland+Hill+Forest": ["Grassland","GrasslandHill","GrasslandForest"],
+        "Plains+Forest": ["Plains","Savannah"],
+        "Plains+Hill+Forest": ["Plains","PlainsHill","Savannah"],
+        "Tundra+Forest": ["Tundra","Taiga"],
+        "Tundra+Hill+Forest": ["Tundra","TundraHill","Taiga"],
+        "Tropical+Hill+Rainforest": ["Tropical","TropicalHill","Rainforest"],
+    }
+}
