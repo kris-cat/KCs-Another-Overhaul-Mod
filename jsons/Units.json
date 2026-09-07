@@ -23,14 +23,14 @@
 			"Requires at least [2] population","[-1] population [in this city]"],
 		"hurryCostModifier": 20
 	},
-    // Ancient Era Land Units
+    //Ancient Era Land Units
     {
-		"name": "Warrior","unitType": "Frontline Unit","movement": 1,"strength": 10,"cost": 40,
+		"name": "Warrior","unitType": "Melee Unit","movement": 2,"strength": 10,"cost": 40,"upgradesTo": "Swordsman",
 		"uniques": [],
 		"attackSound": "nonmetalhit",
 	},
 	{
-		"name": "Slinger","unitType": "Short Ranged Unit","movement": 1,"range": 1,"strength": 7,"rangedStrength": 7,"cost": 35,
+		"name": "Slinger","unitType": "Short Ranged Unit","movement": 2,"range": 1,"strength": 7,"rangedStrength": 7,"cost": 35,
 		"uniques": [],
 		"attackSound": "nonmetalhit",
 	},
@@ -40,18 +40,49 @@
 		"attackSound": "nonmetalhit",
 	},
 	{
-		"name": "Archer","unitType": "Long Ranged Unit","movement": 1,"range": 2,"strength": 7,"rangedStrength": 7,"cost": 40,"requiredTech": "Carpentry",
+		"name": "Archer","unitType": "Long Ranged Unit","movement": 2,"range": 2,"strength": 7,"rangedStrength": 7,"cost": 40,"requiredTech": "Carpentry",
 		"uniques": [],
 		"attackSound": "nonmetalhit",
 	},
 	{
-		"name": "Battering Ram","unitType": "Siege Unit","movement": 1,"strength": 10,"cost": 50,"requiredTech": "Masonry",
+		"name": "Battering Ram","unitType": "Siege Unit","movement": 2,"strength": 10,"cost": 50,"requiredTech": "Masonry",
 		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "No defensive terrain bonus","[-1] Sight", "Can only attack [City] units"],
 		"attackSound": "nonmetalhit",
 	}
 	{
-		"name": "Spearman","unitType": "Anti-Mobile Unit","movement": 1,"strength": 10,"cost": 50,"requiredTech": "Bronze Working",
-		"uniques": [],
+		"name": "Spearman","unitType": "Anti-Mobile Unit","movement": 2,"strength": 8,"cost": 50,"requiredTech": "Bronze Working",
+		"uniques": ["[50]% Strength <vs [Light Mobile Unit]>","[50]% Strength <vs [Heavy Mobile Unit]>"],
 		"attackSound": "nonmetalhit",
-	}
+	},
+	//Classical Era Land Units
+	{
+		"name": "Swordsman","unitType": "Melee Unit","movement": 2,"strength": 20,"cost": 75,
+		"requiredTech": "Iron Working","upgradesTo": "Man-At-Arms","requiredResource": "Iron",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Heavy Spearman","unitType": "Anti-Mobile Unit","movement": 2,"strength": 18,"cost": 75,
+		"requiredTech": "Iron Working","upgradesTo": "Pikeman",
+		"uniques": ["[50]% Strength <vs [Light Mobile Unit]>","[50]% Strength <vs [Heavy Mobile Unit]>"],
+		"attackSound": "metalhit"
+	},
+	//Post-Classical Era Units
+	{
+		"name": "Man-At-Arms","unitType": "Melee Unit","movement": 2,"strength": 30,"cost": 90,
+		"requiredTech": "Feudalism",
+		"uniques": [],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Longswordsman","unitType": "Anti-Melee Unit","movement": 2,"strength": 30,"cost": 130,
+		"requiredTech": "Castles","requiredResource": "Iron",
+		"uniques": ["[50]% Strength <vs [Melee Unit]>"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Pikeman","unitType": "Anti-Mobile Unit","movement": 2,"strength": 27,"cost": 90,
+		"requiredTech": "Horse Collar",
+		"uniques": ["[50]% Strength <vs [Light Mobile Unit]>","[50]% Strength <vs [Heavy Mobile Unit]>"],
+		"attackSound": "metalhit"
+	},
 ]
