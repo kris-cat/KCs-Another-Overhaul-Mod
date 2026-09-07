@@ -130,11 +130,11 @@
 				"uniques": []
 			},
 			{
-                "name": "Drama and Poetry","row": 2,"prerequisites": ["Phisolophy"],
+                "name": "Drama and Poetry","row": 2,"prerequisites": ["Philosophy"],
 				"uniques": []
 			},
 			{
-                "name": "Code of Laws","row": 4,"prerequisites": ["Phisolophy"],
+                "name": "Code of Laws","row": 4,"prerequisites": ["Philosophy"],
 				"uniques": []
 			},
 			{
@@ -147,6 +147,27 @@
 			},
 			{
                 "name": "Currency","row": 11,"prerequisites": ["Metal Casting"],
+				"uniques": []
+			},
+		]
+    },
+	{
+        "columnNumber": 6,"era": "Classical Era","techCost": 145,"buildingCost": 150,"wonderCost": 225,"techs": 
+        [
+			{
+                "name": "Theology","row": 3,"prerequisites": ["Drama and Poetry","Code of Laws"],
+				"uniques": []
+			},
+			{
+                "name": "Civil Service","row": 6,"prerequisites": ["Code of Laws","Hydrology"],
+				"uniques": []
+			},
+			{
+                "name": "Machinery","row": 10,"prerequisites": ["Hydrology","Construction"],
+				"uniques": []
+			},
+			{
+                "name": "Guilds","row": 11,"prerequisites": ["Construction","Currency"],
 				"uniques": []
 			},
 		]
