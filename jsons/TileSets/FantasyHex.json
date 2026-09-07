@@ -12,6 +12,13 @@
         "Tropical+Hill": ["Tropical","TropicalHill"],
         "Tundra+Hill": ["Tundra","TundraHill"],
         "Snow+Hill": ["Snow","SnowHill"],
+		//Mountains
+		"Grassland+Mountain": ["Grassland","Temperate Mountain"],
+		"Plains+Mountain": ["Grassland","Semi-Arid Mountain"],
+		"Desert+Mountain": ["Grassland","Arid Mountain"],
+		"Tropical+Mountain": ["Tropical","Tropical Mountain"],
+		"Tundra+Mountain": ["Grassland","Subarctic Mountain"],
+		"Snow+Mountain": ["Grassland","Arctic Mountain"],
         //Vegetation
         "Grassland+Forest": ["Grassland","GrasslandForest"],
         "Grassland+Hill+Forest": ["Grassland","GrasslandHill","GrasslandForest"],
@@ -27,5 +34,12 @@
 		"Plains+Hill+Farm": ["Plains","PlainsHillFarm"],
 		"Tropical+Farm": ["Tropical","TropicalFarm"],
 		"Tropical+Hill+Farm": ["Tropical","TropicalHillFarm"],
+		//Terrace Farms
+		"Grassland+Hill+Terrace farm": ["Grassland","GrasslandHill","TerraceFarm"],
+		"Plains+Hill+Terrace farm": ["Plains","PlainsHill","TerraceFarm"],
+		"Desert+Hill+Terrace farm": ["Desert","DesertHill","TerraceFarm"],
+		"Tropical+Hill+Terrace farm": ["Tropical","TropicalHill","TerraceFarm"],
+		"Tundra+Hill+Terrace farm": ["Tundra","TundraHill","TerraceFarm"],
+		"Snow+Hill+Terrace farm": ["Snow","SnowHill","TerraceFarm"],
     }
 }
