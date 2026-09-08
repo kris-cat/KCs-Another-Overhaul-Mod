@@ -73,12 +73,12 @@
 	},
 	//Maritime - Classical Era
 	{
-		"name": "Lighthouse","food": 1,"production": 1,"maintenance": 1,"specialistSlots": {"Captain": 1},"requiredResource": "Specialisation Slot","requiredTech": "Celestial Navigation",
+		"name": "Lighthouse","food": 1,"gold": 2,"maintenance": 0,"specialistSlots": {"Captain": 1},"requiredResource": "Specialisation Slot","requiredTech": "Celestial Navigation",
 		"uniques": ["Must be next to [Coastal Water]",]
 	},
 	//Maritime - Post-Classical Era
 	{
-		"name": "Harbor","requiredBuilding": "Lighthouse","maintenance": 1,"specialistSlots": {"Captain": 1},"requiredTech": "Compass",
+		"name": "Harbor","requiredBuilding": "Lighthouse","gold": 2,"maintenance": 0,"specialistSlots": {"Captain": 1},"requiredTech": "Compass",
 		"uniques": ["Must be next to [Coastal Water]","[+1 Food] from [Ocean] tiles [in this city]",
 			"[+1 Food] from [Coastal Water] tiles [in this city]",]
 	},
@@ -114,7 +114,7 @@
     {
 		"name": "Bakery","maintenance": 1,"hurryCostModifier": 40,"requiredTech": "Agriculture",
         "requiredNearbyImprovedResources": ["Wheat","Rice","Maize"],
-		"uniques": ["[+1 Food] from [Wheat] tiles [in this city]","[+1 Food] from [Rice] tiles [in this city]","[+1 Food] from [Maize] tiles [in this city]",],
+		"uniques": ["[+1 Food] from [Grain] tiles [in this city]"],
 	},
     {
 		"name": "Monument","culture": 2,"maintenance": 1,"hurryCostModifier": 40,"requiredTech": "Mining",
@@ -133,14 +133,19 @@
 		"requiredNearbyImprovedResources": ["Stone"],
 		"uniques": ["[+1 Production] from [Stone] tiles [in this city]"],
 	},
-	//Column 3
-	{
-		"name": "Stable","maintenance": 1,"requiredNearbyImprovedResources": ["Camels","Horses"],"requiredTech": "Horseback Riding",
-		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]","[+1 Production] from [Pasture] tiles [in this city]",],
-	},
 	//Column 4//
 	{
 		"name": "Smelter","production": 2,"maintenance": 1,"hurryCostModifier": 40,"requiredTech": "Iron Working",
 		"uniques": ["[+1 Production] from [Tin] tiles [in this city]","[+1 Production] from [Copper] tiles [in this city]","[+1 Production] from [Iron] tiles [in this city]",],
+	},
+	//Column 5//
+	{
+		"name": "Stable","maintenance": 1,"requiredNearbyImprovedResources": ["Camels","Horses"],"requiredTech": "Horseback Riding",
+		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]","[+1 Production] from [Pasture] tiles [in this city]",],
+	},
+	//Column 6//
+	{
+		"name": "Mint","requiredNearbyImprovedResources": ["Copper","Gold Ore", "Silver"],"requiredTech": "Currency"
+		"uniques": ["[+2 Gold] from [Copper] tiles [in this city]", "[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]"],
 	},
 ]
