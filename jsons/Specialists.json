@@ -24,4 +24,14 @@
 		"food":1,"gold":2,
 		"color": [191,0,65]
 	}
+    {
+		"name":"Engineer",
+		"production":2,
+		"color": [139,69,19]
+	},
+	{
+		"name":"Entertainer",
+		"happiness":2,
+		"color": [255,255,0]
+	},
 ]
