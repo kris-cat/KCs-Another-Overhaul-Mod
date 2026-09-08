@@ -20,7 +20,7 @@
 		"color": [255,215,0]
 	},
 	{
-		"name":"Captains",
+		"name":"Captain",
 		"food":1,"gold":2,
 		"color": [191,0,65]
 	}
