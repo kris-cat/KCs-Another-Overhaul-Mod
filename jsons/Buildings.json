@@ -11,6 +11,7 @@
 		"cost": 0,
 		"uniques": [
 			"Indicates the capital city",
+			"Provides [+1] [Specialisation Slot]<in this city>",
 		]
 	},
 	//Specialisation Buildings - Scientific Buildings - Ancient Era//
