@@ -45,7 +45,7 @@
 	{
 		"name": "Chariot Archer","unitType": "Heavy Mobile Unit","movement": 3,"range": 1,"strength": 6,"rangedStrength": 8,"cost": 80,
 		"requiredTech": "The Wheel","requiredResource": "Copper","upgradesTo": "Cataphract",
-		"uniques": ["No defensive terrain bonus", "Rough terrain penalty"],
+		"uniques": ["Mounted","No defensive terrain bonus", "Rough terrain penalty"],
 		"attackSound": "nonmetalhit",
 	},
 	{
@@ -81,13 +81,13 @@
 	{
 		"name": "Horseman","unitType": "Light Mobile Unit","movement": 4,"strength": 18,"cost": 100,
 		"requiredTech": "Horseback Riding","upgradesTo": "Courser",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Mounted","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
 		"attackSound": "metalhit"
 	},
 	{
 		"name": "Cataphract","unitType": "Heavy Mobile Unit","movement": 3,"strength": 20,"cost": 120,
 		"requiredTech": "Horseback Riding","requiredResource": "Iron","upgradesTo": "Knight",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Mounted","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -132,13 +132,13 @@
 	{
 		"name": "Courser","unitType": "Light Mobile Unit","movement": 4,"strength": 27,"cost": 120,
 		"requiredTech": "Stirrups",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Mounted","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
 		"attackSound": "metalhit"
 	},
 	{
 		"name": "Knight","unitType": "Heavy Mobile Unit","movement": 3,"strength": 30,"cost": 150,
 		"requiredTech": "Horse Collar","requiredResource": "Iron",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Mounted","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
 		"attackSound": "metalhit"
 	},
 	{
