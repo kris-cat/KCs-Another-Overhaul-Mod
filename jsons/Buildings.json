@@ -48,6 +48,19 @@
 		"name": "Monastery","requiredBuilding": "Shrine","food": 1,"faith": 1,"maintenance": 1,"specialistSlots": {"Priest": 1},"requiredTech": "Theology",
 		"uniques": ["Only available <when religion is enabled>","Unavailable <if [Temple] is constructed> <in this city>","[+1 Food, +1 Faith] from [Mountain] tiles [in this city]"]
 	},
+	//Religious Buildings//
+	{
+		"name": "Cathedral","cost": 0,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Mosque","cost": 0,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Pagoda","cost": 0,
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	}
 	//Commercial - Classical Era
 	{
 		"name": "Market","gold": 4,"maintenance": 0,"specialistSlots": {"Merchant": 1},"requiredResource": "Specialisation Slot","requiredTech": "Currency",
