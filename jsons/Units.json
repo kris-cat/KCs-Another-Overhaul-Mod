@@ -117,6 +117,18 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Crossbowman","unitType": "Short Ranged Unit","movement": 2,"range": 1,"strength": 21,"rangedStrength": 21,"cost": 75,
+		"requiredTech": "Physics",
+		"uniques": ["Can move after attacking"],
+		"attackSound": "nonmetalhit",
+	},
+	{
+		"name": "Longbowman","unitType": "Long Ranged Unit","movement": 2,"range": 2,"strength": 15,"rangedStrength": 21,"cost": 75,
+		"requiredTech": "Physics",
+		"uniques": [],
+		"attackSound": "nonmetalhit",
+	},
+	{
 		"name": "Trebuchet","unitType": "Siege Unit","movement": 2,"range": 2,"strength": 21,"rangedStrength": 30,"cost": 120,
 		"requiredTech": "Mechanics",
 		"uniques": ["[-50]% Strength <vs [non-[City]]>","[+100]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
