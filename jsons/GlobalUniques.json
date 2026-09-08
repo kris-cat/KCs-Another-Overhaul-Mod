@@ -13,13 +13,13 @@
         //Specialisation//
         "Provides [1] [Specialisation Slot] <in cities with at least [1] [Population]>",
         "Provides [1] [Specialisation Slot] <in cities with at least [4] [Population]>",
-        "Provides [1] [Specialisation Slot] <in cities with at least [7] [Population]>",
-        "Provides [1] [Specialisation Slot] <in cities with at least [10] [Population]>",
-        "Provides [1] [Specialisation Slot] <in cities with at least [14] [Population]>",
-        "Provides [1] [Specialisation Slot] <in cities with at least [18] [Population]>",
-        "Provides [1] [Specialisation Slot] <in cities with at least [22] [Population]>",
-        "Provides [1] [Specialisation Slot] <in cities with at least [26] [Population]>",
+        "Provides [1] [Specialisation Slot] <in cities with at least [8] [Population]>",
+        "Provides [1] [Specialisation Slot] <in cities with at least [12] [Population]>",
+        "Provides [1] [Specialisation Slot] <in cities with at least [16] [Population]>",
+        "Provides [1] [Specialisation Slot] <in cities with at least [20] [Population]>",
+        "Provides [1] [Specialisation Slot] <in cities with at least [25] [Population]>",
         "Provides [1] [Specialisation Slot] <in cities with at least [30] [Population]>",
+        "Provides [1] [Specialisation Slot] <in cities with at least [35] [Population]>",
     ],
     "civilopediaText": [
         {"text": "Global uniques are ruleset-wide modifiers that apply to all civilizations."}
