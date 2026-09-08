@@ -178,7 +178,7 @@
     },
 	//Post-Classical Era
 	{
-        "columnNumber": 7,"era": "Post-Classical Era","techCost": 200,"buildingCost": 100,"wonderCost": 185,"techs": 
+        "columnNumber": 7,"era": "Post-Classical Era","techCost": 200,"buildingCost": 100,"wonderCost": 350,"techs": 
         [
 			{
                 "name": "Education","row": 4,"uniques": ["Unavailable <before discovering [Theology]> <before discovering [Civil Service]> <hidden from users>"]
@@ -199,7 +199,7 @@
 		]
     },
 	{
-        "columnNumber": 8,"era": "Post-Classical Era","techCost": 235,"buildingCost": 130,"wonderCost": 185,"techs": 
+        "columnNumber": 8,"era": "Post-Classical Era","techCost": 235,"buildingCost": 130,"wonderCost": 350,"techs": 
         [
 			{
                 "name": "Compass","row": 1,"prerequisites": ["Shipbuilding","Education"],
@@ -216,6 +216,29 @@
 			},
 			{
                 "name": "Castles","row": 11,"prerequisites": ["Feudalism"],
+			},
+		]
+    },
+	{
+        "columnNumber": 9,"era": "Post-Classical Era","techCost": 265,"buildingCost": 150,"wonderCost": 350,"techs": 
+        [
+			{
+                "name": "Maritime Industry","row": 1,"prerequisites": ["Compass"],
+			},
+			{
+                "name": "Gunpowder","row": 3,"prerequisites": ["Alchemy"],
+			},
+			{
+                "name": "Paper","row": 4,"prerequisites": ["Alchemy","Mechanics"],
+			},
+			{
+                "name": "Banking","row": 5,"prerequisites": ["Mechanics"],
+			},
+			{
+                "name": "Artisanship","row": 6,"prerequisites": ["Mechanics","Horse Collar"],
+			},
+			{
+                "name": "Pike Tactics","row": 11,"prerequisites": ["Horse Collar","Castles"],
 			},
 		]
     },
