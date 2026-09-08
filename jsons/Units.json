@@ -112,7 +112,7 @@
 	},
 	{
 		"name": "Pikeman","unitType": "Anti-Mobile Unit","movement": 2,"strength": 30,"cost": 90,
-		"requiredTech": "Horse Collar",
+		"requiredTech": "Stirrups",
 		"uniques": ["[50]% Strength <vs [Light Mobile Unit]>","[50]% Strength <vs [Heavy Mobile Unit]>"],
 		"attackSound": "metalhit"
 	},
