@@ -13,7 +13,31 @@
 			"Indicates the capital city",
 		]
 	},
-    //Ancient Era Buildings Column 1//
+	//Specialisation Buildings - Scientific Buildings - Ancient Era//
+	{
+		"name": "Library","science": 3,"maintenance": 1,"requiredResource": "Specialisation Slot","requiredTech": "Writing"
+		"uniques": [],
+	},
+	//Post-Classical Era//
+	{
+		"name": "University","requiredBuilding": "Library","maintenance": 1,"requiredTech": "Education"
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
+	},
+	//Religious Buildings - Ancient Era//
+	{
+		"name": "Shrine","faith": 3,"maintenance": 1,"requiredResource": "Specialisation Slot","requiredTech": "Calendar",
+		"uniques": ["Only available <when religion is enabled>",]
+	},
+	//Classical Era//
+	{
+		"name": "Temple","requiredBuilding": "Shrine","maintenance": 2,"requiredTech": "Theology",
+		"uniques": ["Only available <when religion is enabled>","Unavailable <if [Monastery] is constructed>","[+1 Faith] per [2] population [in this city]"]
+	},
+	{
+		"name": "Monastery","requiredBuilding": "Shrine","food": 1,"faith": 1,"maintenance": 2,"requiredTech": "Theology",
+		"uniques": ["Only available <when religion is enabled>","Unavailable <if [Temple] is constructed>","[+1 Food, +1 Faith] from [Mountain] tiles [in this city]"]
+	},
+    //Common Buildings - Ancient Era Column 1//
 	{
 		"name": "Granary","food": 2,"percentStatBonus": {"food": 10},"maintenance": 1,"hurryCostModifier": 25,"requiredTech": "Pottery",
 		"uniques": [],
@@ -23,7 +47,7 @@
 		"uniques": ["[+1 Gold] from [Clay] tiles [in this city]",],
 	},
     {
-		"name": "Miller","maintenance": 1,"hurryCostModifier": 40,"requiredTech": "Agriculture",
+		"name": "Bakery","maintenance": 1,"hurryCostModifier": 40,"requiredTech": "Agriculture",
         "requiredNearbyImprovedResources": ["Wheat","Rice","Maize"],
 		"uniques": ["[+1 Food] from [Wheat] tiles [in this city]","[+1 Food] from [Rice] tiles [in this city]","[+1 Food] from [Maize] tiles [in this city]",],
 	},
@@ -46,30 +70,12 @@
 	},
 	//Column 3//
 	{
-		"name": "Shrine","faith": 2,"cost": 40,"maintenance": 1,"requiredTech": "Calendar",
-		"uniques": ["Only available <when religion is enabled>"]
-	},
-	{
-		"name": "Library","hurryCostModifier": 25,"maintenance": 1,"requiredTech": "Writing"
-		"uniques": ["[+1 Science] per [2] population [in this city]"],
-	},
-	{
 		"name": "Stable","maintenance": 1,"requiredNearbyImprovedResources": ["Camels","Horses"],"requiredTech": "Horseback Riding",
 		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]","[+1 Production] from [Pasture] tiles [in this city]",],
 	},
-	{
-		"name": "Bakery","gold": 1,"food": 2,"hurryCostModifier": 40,"requiredTech": "The Wheel",
-        "requiredNearbyImprovedResources": ["Wheat","Rice","Maize"],
-		"uniques": ["[+1 Gold] from [Wheat] tiles [in this city]","[+1 Gold] from [Rice] tiles [in this city]","[+1 Gold] from [Maize] tiles [in this city]",],
-	},
-	{
-		"name": "Smelter","production": 2,"maintenance": 1,"hurryCostModifier": 40,"requiredTech": "Bronze Working",
-		"uniques": ["[+1 Production] from [Tin] tiles [in this city]","[+1 Production] from [Copper] tiles [in this city]","[+1 Production] from [Iron] tiles [in this city]",],
-	},
 	//Column 4//
 	{
-		"name": "Tannery","production": 1,"gold": 1,"requiredTech": "Craftsmanship",
-		"requiredNearbyImprovedResources": ["Cattle","Deer",],
-		"uniques": ["Provides [1] [Leather]"]
+		"name": "Smelter","production": 2,"maintenance": 1,"hurryCostModifier": 40,"requiredTech": "Iron Working",
+		"uniques": ["[+1 Production] from [Tin] tiles [in this city]","[+1 Production] from [Copper] tiles [in this city]","[+1 Production] from [Iron] tiles [in this city]",],
 	},
 ]
