@@ -16,6 +16,11 @@
         "uniques": ["Earn [100]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"]
     },
     {
+        "name": "Religious Settlements",
+        "type": "Pantheon",
+        "uniques": ["Free [Settler] appears","[-15]% Culture cost of natural border growth [in cities following this religion]"]
+    },
+    {
         "name": "Fertility Rites",
         "type": "Pantheon",
         "uniques": ["[+20]% growth [in this city]"]
