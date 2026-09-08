@@ -32,6 +32,13 @@ ImprovementIcons/Remove Rainforest
   orig: 100, 100
   offset: 0, 0
   index: -1
+ResourceIcons/Specialisation Slot
+  rotate: false
+  xy: 760, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Heavy Spearman
   rotate: false
   xy: 112, 4
