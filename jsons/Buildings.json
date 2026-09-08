@@ -107,7 +107,8 @@
 		"uniques": [],
 	},
 	{
-		"name": "Potter","production": 1,"gold": 1,"maintenance": 1,"hurryCostModifier": 25,"requiredTech": "Pottery",
+		"name": "Potter","production": 1,"gold": 1,"maintenance": 0,"hurryCostModifier": 25,"requiredTech": "Pottery",
+		"requiredNearbyImprovedResources": ["Clay"],
 		"uniques": ["[+1 Gold] from [Clay] tiles [in this city]",],
 	},
     {
