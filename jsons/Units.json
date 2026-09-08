@@ -24,65 +24,104 @@
 		"hurryCostModifier": 20
 	},
     //Ancient Era Land Units
+	{
+		"name": "Scout","unitType": "Scouting Unit","movement": 3,"strength": 5,"cost": 25,
+		"requiredTech": "Hunting",
+		"uniques": [],
+		"attackSound": "nonmetalhit",
+	},
     {
-		"name": "Warrior","unitType": "Melee Unit","movement": 2,"strength": 10,"cost": 40,"upgradesTo": "Swordsman",
-		"uniques": [],
+		"name": "Warrior","unitType": "Melee Unit","movement": 2,"strength": 10,"cost": 40,
+		"upgradesTo": "Swordsman",
+		"uniques": ["[25]% Strength <vs [Anti-Mobile Unit]>"],
 		"attackSound": "nonmetalhit",
 	},
 	{
-		"name": "Slinger","unitType": "Short Ranged Unit","movement": 2,"range": 1,"strength": 7,"rangedStrength": 7,"cost": 35,
-		"uniques": [],
-		"attackSound": "nonmetalhit",
-	},
-	{
-		"name": "Scout","unitType": "Scouting Unit","movement": 2,"strength": 5,"cost": 25,"requiredTech": "Hunting",
-		"uniques": ["Ignores terrain cost"],
-		"attackSound": "nonmetalhit",
-	},
-	{
-		"name": "Archer","unitType": "Long Ranged Unit","movement": 2,"range": 2,"strength": 7,"rangedStrength": 7,"cost": 40,"requiredTech": "Carpentry",
-		"uniques": [],
-		"attackSound": "nonmetalhit",
-	},
-	{
-		"name": "Battering Ram","unitType": "Siege Unit","movement": 2,"strength": 10,"cost": 50,"requiredTech": "Masonry",
-		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "No defensive terrain bonus","[-1] Sight", "Can only attack [City] units"],
-		"attackSound": "nonmetalhit",
-	}
-	{
-		"name": "Spearman","unitType": "Anti-Mobile Unit","movement": 2,"strength": 8,"cost": 50,"requiredTech": "Bronze Working",
+		"name": "Spearman","unitType": "Anti-Mobile Unit","movement": 2,"strength": 10,"cost": 60,
+		"requiredTech": "Bronze Working","upgradesTo": "Heavy Spearman","requiredResource": "Copper",
 		"uniques": ["[50]% Strength <vs [Light Mobile Unit]>","[50]% Strength <vs [Heavy Mobile Unit]>"],
+		"attackSound": "nonmetalhit",
+	},
+	{
+		"name": "Chariot Archer","unitType": "Heavy Mobile Unit","movement": 3,"range": 1,"strength": 6,"rangedStrength": 8,"cost": 40,
+		"uniques": ["No defensive terrain bonus", "Rough terrain penalty"],
+		"attackSound": "nonmetalhit",
+	},
+	{
+		"name": "Slinger","unitType": "Short Ranged Unit","movement": 2,"range": 1,"strength": 7,"rangedStrength": 7,"cost": 40,
+		"uniques": ["Can move after attacking"],
+		"attackSound": "nonmetalhit",
+	},
+	{
+		"name": "Archer","unitType": "Long Ranged Unit","movement": 2,"range": 2,"strength": 5,"rangedStrength": 7,"cost": 40,
+		"requiredTech": "Carpentry",
+		"uniques": [],
+		"attackSound": "nonmetalhit",
+	},
+	{
+		"name": "Battering Ram","unitType": "Siege Unit","movement": 2,"strength": 10,"cost": 60,
+		"requiredTech": "Masonry","requiredResource": "Copper",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus","[-1] Sight", "Can only attack [City] units"],
 		"attackSound": "nonmetalhit",
 	},
 	//Classical Era Land Units
 	{
-		"name": "Swordsman","unitType": "Melee Unit","movement": 2,"strength": 20,"cost": 75,
+		"name": "Swordsman","unitType": "Melee Unit","movement": 2,"strength": 20,"cost": 100,
 		"requiredTech": "Iron Working","upgradesTo": "Man-At-Arms","requiredResource": "Iron",
+		"uniques": ["[25]% Strength <vs [Anti-Mobile Unit]>"],
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Heavy Spearman","unitType": "Anti-Mobile Unit","movement": 2,"strength": 18,"cost": 75,
+		"name": "Heavy Spearman","unitType": "Anti-Mobile Unit","movement": 2,"strength": 20,"cost": 75,
 		"requiredTech": "Iron Working","upgradesTo": "Pikeman",
 		"uniques": ["[50]% Strength <vs [Light Mobile Unit]>","[50]% Strength <vs [Heavy Mobile Unit]>"],
 		"attackSound": "metalhit"
+	},
+	{
+		"name": "Javelineer","unitType": "Short Ranged Unit","movement": 2,"range": 1,"strength": 14,"rangedStrength": 14,"cost": 75,
+		"requiredTech": "Engineering",
+		"uniques": ["Can move after attacking"],
+		"attackSound": "nonmetalhit",
+	},
+	{
+		"name": "Composite Bowman","unitType": "Long Ranged Unit","movement": 2,"range": 2,"strength": 10,"rangedStrength": 14,"cost": 75,
+		"requiredTech": "Engineering",
+		"uniques": [],
+		"attackSound": "nonmetalhit",
+	},
+	{
+		"name": "Catapult","unitType": "Siege Unit","movement": 2,"range": 2,"strength": 16,"rangedStrength": 20,"cost": 100,
+		"requiredTech": "Mathematics","upgradesTo": "Trebuchet",
+		"uniques": ["[-50]% Strength <vs [non-[City]]>","[+100]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
+			"Must set up to ranged attack", "[-1] Sight", "Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
+		"attackSound": "throw"
 	},
 	//Post-Classical Era Units
 	{
 		"name": "Man-At-Arms","unitType": "Melee Unit","movement": 2,"strength": 30,"cost": 90,
 		"requiredTech": "Feudalism",
-		"uniques": [],
+		"uniques": ["[25]% Strength <vs [Anti-Mobile Unit]>"],
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Longswordsman","unitType": "Anti-Melee Unit","movement": 2,"strength": 30,"cost": 130,
+		"name": "Longswordsman","unitType": "Anti-Melee Unit","movement": 2,"strength": 30,"cost": 120,
 		"requiredTech": "Castles","requiredResource": "Iron",
 		"uniques": ["[50]% Strength <vs [Melee Unit]>"],
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Pikeman","unitType": "Anti-Mobile Unit","movement": 2,"strength": 27,"cost": 90,
+		"name": "Pikeman","unitType": "Anti-Mobile Unit","movement": 2,"strength": 30,"cost": 90,
 		"requiredTech": "Horse Collar",
 		"uniques": ["[50]% Strength <vs [Light Mobile Unit]>","[50]% Strength <vs [Heavy Mobile Unit]>"],
 		"attackSound": "metalhit"
+	},
+	{
+		"name": "Trebuchet","unitType": "Siege Unit","movement": 2,"range": 2,"strength": 21,"rangedStrength": 30,"cost": 120,
+		"requiredTech": "Mathematics","obsoleteTech": "Physics","upgradesTo": "Trebuchet",
+		"uniques": ["[-50]% Strength <vs [non-[City]]>","[+100]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
+			"Must set up to ranged attack", "[-1] Sight", "Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
+		"attackSound": "throw"
 	},
 ]
