@@ -1,23 +1,23 @@
 [
 	//Water Climates
 	{
-		"name": "Arctic Ocean","type": "Water","food": 1,"movementCost": 1,"RGB": [6, 17, 81]
+		"name": "Arctic Ocean","type": "Water","food": 1,"gold": 1,"movementCost": 1,"RGB": [6, 17, 81]
 		"uniques": ["[+12] to Fertility for Map Generation","Occurs at temperature between [-1] and [-0.7] and humidity between [-1] and [1]","Ocean"]
 	},
 	{
-		"name": "Cold Ocean","type": "Water","food": 1,"movementCost": 1,"RGB": [4, 40, 148]
+		"name": "Cold Ocean","type": "Water","food": 1,"gold": 1,"movementCost": 1,"RGB": [4, 40, 148]
 		"uniques": ["[+12] to Fertility for Map Generation","Occurs at temperature between [-0.7] and [-0.2] and humidity between [-1] and [1]","Ocean"]
 	},
 	{
-		"name": "Lukewarm Ocean","type": "Water","food": 1,"movementCost": 1,"RGB": [13, 56, 200]
+		"name": "Lukewarm Ocean","type": "Water","food": 1,"gold": 1,"movementCost": 1,"RGB": [13, 56, 200]
 		"uniques": ["[+12] to Fertility for Map Generation","Occurs at temperature between [-0.2] and [0.6] and humidity between [-1] and [1]","Ocean"]
 	},
 	{
-		"name": "Warm Ocean","type": "Water","food": 1,"movementCost": 1,"RGB": [2, 77, 250]
+		"name": "Warm Ocean","type": "Water","food": 1,"gold": 1,"movementCost": 1,"RGB": [2, 77, 250]
 		"uniques": ["[+12] to Fertility for Map Generation","Occurs at temperature between [0.6] and [1] and humidity between [-1] and [1]","Ocean"]
 	},
 	{
-		"name": "Arctic Coast","type": "Water","food": 1,"movementCost": 1,"RGB": [0, 75, 178],
+		"name": "Arctic Coast","type": "Water","food": 1,"gold": 1,"movementCost": 1,"RGB": [0, 75, 178],
 		"uniques": ["[+2] to Fertility for Map Generation","Considered [Desirable] when determining start locations <on water maps>",
 			"Occurs at temperature between [-1] and [-0.7] and humidity between [0] and [1]",
 			"Becomes [Rocky Shore] when adjacent to [Mountain]","Becomes [Rocky Shore] when adjacent to [Hill] <with [2] to [6] neighboring [Hill] tiles>",
@@ -25,7 +25,7 @@
             "Every [60] tiles with this terrain will receive a major deposit of a strategic resource.","Coastal Water"]
 	},
 	{
-		"name": "Cold Coast","type": "Water","food": 1,"movementCost": 1,"RGB": [6, 106, 214],
+		"name": "Cold Coast","type": "Water","food": 1,"gold": 1,"movementCost": 1,"RGB": [6, 106, 214],
 		"uniques": ["[+2] to Fertility for Map Generation","Considered [Desirable] when determining start locations <on water maps>",
 			"Occurs at temperature between [-0.7] and [-0.2] and humidity between [0] and [1]",
 			"Becomes [Rocky Shore] when adjacent to [Mountain]","Becomes [Rocky Shore] when adjacent to [Hill] <with [2] to [6] neighboring [Hill] tiles>",
@@ -33,7 +33,7 @@
             "Every [60] tiles with this terrain will receive a major deposit of a strategic resource.","Coastal Water"]
 	},
 	{
-		"name": "Lukewarm Coast","type": "Water","food": 1,"movementCost": 1,"RGB": [10, 138, 232],
+		"name": "Lukewarm Coast","type": "Water","food": 1,"gold": 1,"movementCost": 1,"RGB": [10, 138, 232],
 		"uniques": ["[+2] to Fertility for Map Generation","Considered [Desirable] when determining start locations <on water maps>",
 			"Occurs at temperature between [-0.2] and [0.6] and humidity between [0] and [1]",
 			"Becomes [Rocky Shore] when adjacent to [Mountain]","Becomes [Rocky Shore] when adjacent to [Hill] <with [2] to [6] neighboring [Hill] tiles>",
@@ -41,7 +41,7 @@
             "Every [60] tiles with this terrain will receive a major deposit of a strategic resource.","Coastal Water"]
 	},
 	{
-		"name": "Warm Coast","type": "Water","food": 1,"movementCost": 1,"RGB": [9, 188, 246],
+		"name": "Warm Coast","type": "Water","food": 1,"gold": 1,"movementCost": 1,"RGB": [9, 188, 246],
 		"uniques": ["[+2] to Fertility for Map Generation","Considered [Desirable] when determining start locations <on water maps>",
 			"Occurs at temperature between [0.6] and [1] and humidity between [0] and [1]",
 			"Becomes [Rocky Shore] when adjacent to [Mountain]","Becomes [Rocky Shore] when adjacent to [Hill] <with [2] to [6] neighboring [Hill] tiles>",
