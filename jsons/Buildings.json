@@ -65,7 +65,7 @@
 	},
 	//Maritime - Post-Classical Era
 	{
-		"name": "Harbour","requiredBuilding": "Lighthouse","maintenance": 1,"requiredTech": "Compass",
+		"name": "Harbor","requiredBuilding": "Lighthouse","maintenance": 1,"requiredTech": "Compass",
 		"uniques": ["Must be next to [Coastal Water]","[+1 Food] from [Ocean] tiles [in this city]",
 			"[+1 Food] from [Coastal Water] tiles [in this city]",]
 	},
