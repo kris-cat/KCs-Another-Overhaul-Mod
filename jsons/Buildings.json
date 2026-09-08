@@ -1,5 +1,5 @@
 [
-    //Palace Buildings//
+    //Palace Buildings
     {
 		"name": "Palace",
 		"isNationalWonder": true,
@@ -14,29 +14,60 @@
 			"Provides [+1] [Specialisation Slot]<in this city>",
 		]
 	},
-	//Specialisation Buildings - Scientific Buildings - Ancient Era//
+	//Specialisation Buildings - Scientific - Ancient Era
 	{
-		"name": "Library","science": 3,"maintenance": 1,"requiredResource": "Specialisation Slot","requiredTech": "Writing"
+		"name": "Library","science": 2,"maintenance": 1,"requiredResource": "Specialisation Slot","requiredTech": "Writing"
 		"uniques": [],
 	},
-	//Post-Classical Era//
+	//Scientific - Post-Classical Era
 	{
 		"name": "University","requiredBuilding": "Library","maintenance": 1,"requiredTech": "Education"
 		"uniques": ["[+1 Science] per [2] population [in this city]"],
 	},
-	//Religious Buildings - Ancient Era//
+	//Religious - Ancient Era
 	{
-		"name": "Shrine","faith": 3,"maintenance": 1,"requiredResource": "Specialisation Slot","requiredTech": "Calendar",
+		"name": "Shrine","faith": 2,"maintenance": 1,"requiredResource": "Specialisation Slot","requiredTech": "Calendar",
 		"uniques": ["Only available <when religion is enabled>",]
 	},
-	//Classical Era//
+	//Religious - Classical Era
 	{
 		"name": "Temple","requiredBuilding": "Shrine","maintenance": 2,"requiredTech": "Theology",
-		"uniques": ["Only available <when religion is enabled>","Unavailable <if [Monastery] is constructed>","[+1 Faith] per [2] population [in this city]"]
+		"uniques": ["Only available <when religion is enabled>","Unavailable <if [Monastery] is constructed> <in this city>","[+1 Faith] per [2] population [in this city]"]
 	},
 	{
 		"name": "Monastery","requiredBuilding": "Shrine","food": 1,"faith": 1,"maintenance": 2,"requiredTech": "Theology",
-		"uniques": ["Only available <when religion is enabled>","Unavailable <if [Temple] is constructed>","[+1 Food, +1 Faith] from [Mountain] tiles [in this city]"]
+		"uniques": ["Only available <when religion is enabled>","Unavailable <if [Temple] is constructed> <in this city>","[+1 Food, +1 Faith] from [Mountain] tiles [in this city]"]
+	},
+	//Cultural - Classical Era
+	{
+		"name": "Theatre","culture": 2,"maintenance": 1,"requiredResource": "Specialisation Slot","requiredTech": "Drama and Poetry"
+		"uniques": [],
+	},
+	//Cultural - Post-Classical Era
+	{
+		"name": "Opera","requiredBuilding": "Theatre","maintenance": 1,"requiredTech": "Paper"
+		"uniques": ["[+1 Culture] per [2] population [in this city]"],
+	},
+	//Commercial - Classical Era
+	{
+		"name": "Market","gold": 4,"maintenance": 0,"requiredResource": "Specialisation Slot","requiredTech": "Currency",
+		"uniques": []
+	},
+	//Commercial - Post-Classical Era
+	{
+		"name": "Bank","requiredBuilding": "Market","maintenance": 0,"requiredTech": "Banking",
+		"uniques": ["[+2 Gold] per [2] population [in this city]"]
+	},
+	//Maritime - Classical Era
+	{
+		"name": "Lighthouse","food": 1,"production": 1,"maintenance": 1,"requiredResource": "Specialisation Slot","requiredTech": "Celestial Navigation",
+		"uniques": ["Must be next to [Coastal Water]",]
+	},
+	//Maritime - Post-Classical Era
+	{
+		"name": "Harbour","requiredBuilding": "Lighthouse","maintenance": 1,"requiredTech": "Compass",
+		"uniques": ["Must be next to [Coastal Water]","[+1 Food] from [Ocean] tiles [in this city]",
+			"[+1 Food] from [Coastal Water] tiles [in this city]",]
 	},
     //Common Buildings - Ancient Era Column 1//
 	{
@@ -69,7 +100,7 @@
 		"requiredNearbyImprovedResources": ["Stone"],
 		"uniques": ["[+1 Production] from [Stone] tiles [in this city]"],
 	},
-	//Column 3//
+	//Column 3
 	{
 		"name": "Stable","maintenance": 1,"requiredNearbyImprovedResources": ["Camels","Horses"],"requiredTech": "Horseback Riding",
 		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]","[+1 Production] from [Pasture] tiles [in this city]",],
