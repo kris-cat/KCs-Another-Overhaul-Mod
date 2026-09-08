@@ -38,7 +38,7 @@
 		"shortcutKey": "F"
 	},
     {
-		"name": "Camp","gold": 1,"turnsToBuild": 9,"techRequired": "Hunting",
+		"name": "Camp","gold": 2,"turnsToBuild": 9,"techRequired": "Hunting",
 		"uniques": ["Can only be built to improve a resource","Pillaging this improvement yields approximately [+20 Gold]",],
 		"shortcutKey": "C"
 	},
@@ -55,7 +55,7 @@
 		"shortcutKey": "M"
 	},
 	{
-		"name": "Plantation","gold": 1,"turnsToBuild": 9,"techRequired": "Irrigation",
+		"name": "Plantation","gold": 2,"turnsToBuild": 9,"techRequired": "Irrigation",
 		"uniques": ["Can only be built to improve a resource","Pillaging this improvement yields approximately [+20 Gold]",],
 		"shortcutKey": "P"
 	},
