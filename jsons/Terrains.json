@@ -118,7 +118,7 @@
     },
 	//Elevation
 	{
-		"name": "Hill","type": "TerrainFeature","production": 1,"movementCost": 2,"defenceBonus": 0.25,"RGB": [105,125,72],
+		"name": "Hill","type": "TerrainFeature","production": 2,"overrideStats": true,"movementCost": 2,"defenceBonus": 0.25,"RGB": [105,125,72],
 		"occursOn": ["Snow","Tundra","Grassland","Plains","Desert","Tropical"],
 		"uniques": ["Rough terrain",
 			"[+5] Strength for cities built on this terrain",
