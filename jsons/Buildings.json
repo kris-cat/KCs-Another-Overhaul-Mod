@@ -63,7 +63,7 @@
 	}
 	//Commercial - Classical Era
 	{
-		"name": "Market","gold": 4,"maintenance": 0,"specialistSlots": {"Merchant": 1},"requiredResource": "Specialisation Slot","requiredTech": "Currency",
+		"name": "Market","gold": 4,"maintenance": 0,"specialistSlots": {"Merchant": 1},"requiredResource": "Specialisation Slot","requiredTech": "The Wheel",
 		"uniques": []
 	},
 	//Commercial - Post-Classical Era
