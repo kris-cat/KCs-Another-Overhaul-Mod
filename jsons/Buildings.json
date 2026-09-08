@@ -50,15 +50,15 @@
 	},
 	//Religious Buildings//
 	{
-		"name": "Cathedral","cost": 0,
+		"name": "Cathedral","cost": 0,"faith": 3,"culture": 2,
 		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
 	},
 	{
-		"name": "Mosque","cost": 0,
+		"name": "Mosque","cost": 0,"faith": 3,"science": 2,
 		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
 	},
 	{
-		"name": "Pagoda","cost": 0,
+		"name": "Pagoda","cost": 0,"faith": 3,"happiness": 2,
 		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
 	}
 	//Commercial - Classical Era
