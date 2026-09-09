@@ -160,12 +160,12 @@
                 ],
             },
             {
-                "name": "Expansion 2","row": 1,"column": 3
+                "name": "Expansion 2","row": 1,"column": 5
                 "uniques": [
                 ],
             },
             {
-                "name": "Expansion 3","row": 2,"column": 5
+                "name": "Expansion 3","row": 2,"column": 3
                 "uniques": [
                 ],
             },
@@ -175,7 +175,7 @@
                 ],
             },
             {
-                "name": "Expansion 5","requires": ["Expansion 1"],"row": 3,"column": 3
+                "name": "Expansion 5","requires": ["Expansion 1"],"row": 3,"column": 5
                 "uniques": [
                 ],
             },
@@ -205,22 +205,22 @@
                 ],
             },
             {
-                "name": "Development 2","row": 2,"column": 3
+                "name": "Development 2","row": 2,"column": 5
                 "uniques": [
                 ],
             },
             {
-                "name": "Development 3","row": 1,"column": 5
+                "name": "Development 3","requires": ["Expansion 1"],"row": 2,"column": 2
                 "uniques": [
                 ],
             },
             {
-                "name": "Development 4","requires": ["Expansion 1"],"row": 3,"column": 2
+                "name": "Development 4","requires": ["Expansion 2"],"row": 2,"column": 4
                 "uniques": [
                 ],
             },
             {
-                "name": "Development 5","requires": ["Expansion 3"],"row": 3,"column": 4
+                "name": "Development 5","requires": ["Expansion 3","Expansion 4"],"row": 3,"column": 3
                 "uniques": [
                 ],
             },
