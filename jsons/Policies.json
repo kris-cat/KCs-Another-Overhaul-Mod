@@ -141,4 +141,94 @@
             }
         ]
     },
+    {
+        "name": "Expansion",
+        "era": "Ancient Era",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+        ],
+        "policies": [
+            {
+                "name": "Expansion 1","row": 1,"column": 1
+                "uniques": [
+                ],
+            },
+            {
+                "name": "Expansion 2","row": 1,"column": 3
+                "uniques": [
+                ],
+            },
+            {
+                "name": "Expansion 3","row": 2,"column": 5
+                "uniques": [
+                ],
+            },
+            {
+                "name": "Expansion 4","requires": ["Expansion 2"],"row": 3,"column": 1
+                "uniques": [
+                ],
+            },
+            {
+                "name": "Expansion 5","requires": ["Expansion 1"],"row": 3,"column": 3
+                "uniques": [
+                ],
+            },
+            {
+                "name": "Expansion Complete",
+                "uniques": [
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Development",
+        "era": "Ancient Era",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+        ],
+        "policies": [
+            {
+                "name": "Development 1","row": 1,"column": 1
+                "uniques": [
+                ],
+            },
+            {
+                "name": "Development 2","row": 2,"column": 3
+                "uniques": [
+                ],
+            },
+            {
+                "name": "Development 3","row": 1,"column": 5
+                "uniques": [
+                ],
+            },
+            {
+                "name": "Development 4","requires": ["Expansion 1"],"row": 3,"column": 2
+                "uniques": [
+                ],
+            },
+            {
+                "name": "Development 5","requires": ["Expansion 3"],"row": 3,"column": 4
+                "uniques": [
+                ],
+            },
+            {
+                "name": "Development Complete",
+                "uniques": [
+                ]
+            }
+        ]
+    },
 ]
