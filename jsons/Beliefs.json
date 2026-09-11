@@ -172,4 +172,14 @@
         "type": "Follower",
         "uniques": ["May buy [Pagoda] buildings for [200] [Faith] [in cities following this religion]"]
     },
+    {
+        "name": "Synagogues",
+        "type": "Follower",
+        "uniques": ["May buy [Synagogue] buildings for [200] [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Wat",
+        "type": "Follower",
+        "uniques": ["May buy [Wat] buildings for [200] [Faith] [in cities following this religion]"]
+    },
 ]
