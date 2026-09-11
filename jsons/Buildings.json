@@ -36,7 +36,7 @@
 	},
 	//Governmental - Ancient Era
 	{
-		"name": "Archives","science": 1,"culture": 1,"maintenance": 1,"specialistSlots": {"Bureaucrat": 1},"requiredResource": "Specialisation Slot","requiredTech": "Mathematics"
+		"name": "Archives","maintenance": 1,"specialistSlots": {"Bureaucrat": 1},"requiredResource": "Specialisation Slot","requiredTech": "Mathematics"
 		"uniques": ["[-15]% maintenance cost for [all] buildings [in this city]"],
 	},
 	//Governmental - Classical Era
