@@ -8,7 +8,7 @@
 		],
 	},
 	{
-		"name": "Arabia","leaderName": "Al-Mansur","adjective": ["Arabian"],"startBias": ["Desert"],"preferredVictoryType": "Domination",
+		"name": "Arabia","leaderName": "Al-Mansur","adjective": ["Arabian"],"startBias": ["Desert"],"preferredVictoryType": "Domination","personality": "Al-Mansur","favoredReligion": "Islam",
         "startIntroPart1": "Blessings of the Great God be upon you, O great caliph Harun al-Rashid, leader of the mighty Arabian people! The Muslim Empire, the Caliphate, born from chaos after the death of the prophet Muhammad in 632 AD, intended to apply the rule of God to all Earth. And by the will of God, the caliphate reached its full power, ruling Spain, North Africa, the Middle East, Anatolia, the Balkans and Persia, to even surpass the Great Roman Empire. The arts and sciences were a holy gift of Arabia during the Middle Ages, as the infidel lands of Europe delved deep into ignorance and chaos. Lasting for six hundred years, the Caliphate finally fell before the Mongols, the plague of the civilized world.",
         "startIntroPart2": "Great Caliph Harun al Rashid, all Arabian people long for greatness! Arabia must be once again the land of arts and knowledge, which under the radiant law of God, will fear no enemy! Will your new empire shine through the ages of history?",
         "declaringWar": "The world will be more beautiful without you. Prepare for war.","attacked": "Fool! You will soon regret dearly! I swear it!","defeated": "You have won, congratulations. My palace is now in your possession, and I beg that you care well for the peacock.","denounced": "Well done, my friend. Now I look forward to our next battle even more!",
@@ -74,7 +74,7 @@
 		]
 	},
 	{
-		"name": "Inca","leaderName": "Pachacuti","adjective": ["Incan"],"startBias": ["Mountain"],"preferredVictoryType": "Domination",
+		"name": "Inca","leaderName": "Pachacuti","adjective": ["Incan"],"startBias": ["Mountain"],"preferredVictoryType": "Domination","personality": "Pachacuti","favoredReligion": "Christianity",
 		"startIntroPart1": "King Pachacuti Sapa Inca, maker of the world and ruler of Tawantinsuyu and the Inca people, your loyal subjects greet you! In the beginning, the small state of Cusco already showed the Incans were promised for greatness. They won many wars against powerful enemies, relentlessly crushing any army that dared oppose them, and forged a mighty empire stretching from Ecuador to Chile, the greatest ever seen in pre-Columbian America. Not just undaunted soldiers, Inca people were accomplished builders and artists, their magnificient and unequalled culture still fascinating the world today.",
         "startIntroPart2": "O Emperor Pachacuti, honor your name of 'Earth Shaker'! Will you once again summon the power of the earth to unite all Incan people under the protection of Sapa Inca, the Son of the Sun? Will your new empire shine through the ages of history?",
         "declaringWar": "Resistance is futile! You cannot hope to stand against the mighty Incan empire. If you will not surrender immediately, then prepare for war!","attacked": "Declare war on me?!? You can't, because I declare war on you first!",
