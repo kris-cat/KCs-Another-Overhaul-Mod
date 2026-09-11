@@ -63,13 +63,13 @@
 	}
 	//Commercial - Classical Era
 	{
-		"name": "Market","gold": 4,"maintenance": 0,"specialistSlots": {"Merchant": 1},"requiredResource": "Specialisation Slot","requiredTech": "The Wheel",
+		"name": "Market","gold": 3,"maintenance": 0,"specialistSlots": {"Merchant": 1},"requiredResource": "Specialisation Slot","requiredTech": "The Wheel",
 		"uniques": []
 	},
 	//Commercial - Post-Classical Era
 	{
 		"name": "Bank","requiredBuilding": "Market","maintenance": 0,"specialistSlots": {"Merchant": 1},"requiredTech": "Banking",
-		"uniques": ["[+2 Gold] per [2] population [in this city]"]
+		"uniques": ["[+1 Gold] per [1] population [in this city]"]
 	},
 	//Maritime - Classical Era
 	{
