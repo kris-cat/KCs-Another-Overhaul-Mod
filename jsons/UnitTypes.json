@@ -45,4 +45,14 @@
         "name": "Siege Unit",
         "movementType": "Land"
     },
+    //Naval Units
+    {
+        "name": "Light Melee Ship",
+        "movementType": "Water"
+    },
+    {
+        "name": "Raider Ship",
+        "movementType": "Water"
+        "uniques": ["Invisible to non-adjacent units", "Can see invisible [Raider] units"]
+    },
 ]
