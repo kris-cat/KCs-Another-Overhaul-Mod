@@ -21,6 +21,27 @@
         }
     },
     {
+        "name": "Qin Shi Huang",
+        "production": 8,
+        "food": 6,
+        "gold": 4,
+        "science": 5,
+        "culture": 5,
+        "happiness": 6,
+        "faith": 4,
+        "military": 5,
+        "aggressive": 6,
+        "declareWar": 6,
+        "commerce": 4,
+        "diplomacy": 8,
+        "loyal": 5,
+        "expansion": 8,
+        "denounceWillingness": 5,
+        "priorities": {
+            
+        }
+    },
+    {
         "name": "Pachacuti",
         "production": 8,
         "food": 8,
@@ -42,7 +63,7 @@
         }
     },
     {
-        "name": "Augustus Caeser",
+        "name": "Augustus Caesar",
         "production": 5,
         "food": 5,
         "gold": 5,
