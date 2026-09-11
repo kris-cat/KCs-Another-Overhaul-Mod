@@ -51,7 +51,7 @@
         "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
 	},
 	{
-		"name": "China","leaderName": "Qin Shi Huang","adjective": ["Chinese"],"startBias": ["Grassland"],"preferredVictoryType": "Domination",
+		"name": "China","leaderName": "Qin Shi Huang","adjective": ["Chinese"],"startBias": ["Grassland"],"preferredVictoryType": "Domination","personality": "Qin Shi Huang","favoredReligion": "Confucianism",
         "startIntroPart1": "Heaven itself bends before your beauty, Empress Wu Zetian, ruler of eternal China! You lead one of the oldest and greatest civilization of humanity. In your time, China stood at the forefront of science and technology, bringing the world such contributions as gunpowder, the printing press, and the world of Confucius, and this, long before the rest of the world was mature enough to make the same discoveries!",
 		"startIntroPart2": "Great Queen, can you make China prevail again, using your divine intelligence and beauty? China stands for greatness, and all its enemies will be dazzled soon enough! Will your new empire shine through the ages of history?",
 		"declaringWar": "You won't ever be able to bother me again. Go meet Yama.","attacked": "Fool! I will disembowel you all!","defeated": "You have proven to be a cunning and competent adversary. I congratulate you on your victory.",
