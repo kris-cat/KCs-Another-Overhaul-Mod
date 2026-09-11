@@ -138,7 +138,7 @@
 		"hurryCostModifier": 20,
 		"attackSound": "throw"
 	},
-	//Post-Classical Era Units
+	//Post-Classical Era Land Units
 	{
 		"name": "Man-At-Arms","unitType": "Melee Unit","movement": 2,"strength": 30,"cost": 90,
 		"requiredTech": "Feudalism",
@@ -189,4 +189,6 @@
 		"hurryCostModifier": 20,
 		"attackSound": "throw"
 	},
+	//Post-Classical Naval Units
+	
 ]
