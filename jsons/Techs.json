@@ -1,7 +1,7 @@
 [
     //Ancient Era
 	{
-        "columnNumber": 0,"era": "Ancient Era","techCost": 15,"buildingCost": 35,"wonderCost": 175,"techs": 
+        "columnNumber": 0,"era": "Ancient Era","techCost": 15,"buildingCost": 30,"wonderCost": 175,"techs": 
         [
             {
                 "name": "Fishing","row": 1,
@@ -199,7 +199,7 @@
 		]
     },
 	{
-        "columnNumber": 8,"era": "Post-Classical Era","techCost": 235,"buildingCost": 130,"wonderCost": 350,"techs": 
+        "columnNumber": 8,"era": "Post-Classical Era","techCost": 235,"buildingCost": 120,"wonderCost": 350,"techs": 
         [
 			{
                 "name": "Compass","row": 1,"prerequisites": ["Shipbuilding","Education"],
@@ -220,7 +220,7 @@
 		]
     },
 	{
-        "columnNumber": 9,"era": "Post-Classical Era","techCost": 265,"buildingCost": 150,"wonderCost": 350,"techs": 
+        "columnNumber": 9,"era": "Post-Classical Era","techCost": 265,"buildingCost": 140,"wonderCost": 350,"techs": 
         [
 			{
                 "name": "Maritime Industry","row": 1,"prerequisites": ["Compass"],
