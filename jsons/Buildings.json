@@ -119,7 +119,22 @@
 		"name": "Arena","happiness": 2,"maintenance": 1,"specialistSlots": {"Entertainer": 1},"requiredResource": "Specialisation Slot","requiredTech": "Construction",
 		"uniques": []
 	},
-    //Common Buildings - Ancient Era Column 1//
+	//Militaristic - Ancient Era
+	{
+		"name": "Barracks","production": 1,"maintenance": 1,"specialistSlots": {"Commander": 1},"requiredResource": "Specialisation Slot","requiredTech": "Iron Working",
+		"uniques": ["New [Military] units start with [15] XP [in this city]"]
+	},
+	//Militaristic - Classical Era
+	{
+		"name": "Stable","requiredBuilding": "Barracks","production": 1,"maintenance": 1,"specialistSlots": {"Commander": 1},"requiredTech": "Horseback Riding",
+		"requiredNearbyImprovedResources": ["Camels","Horses"],
+		"uniques": ["Unavailable <if [Target Range] is constructed> <in this city>","[+15]% Production when constructing [Mounted] units [in this city]","[+1 Production] from [Pasture] tiles [in this city]"],
+	},
+	{
+		"name": "Target Range","requiredBuilding": "Barracks","production": 1,"maintenance": 1,"specialistSlots": {"Commander": 1},"requiredTech": "Engineering",
+		"uniques": ["Unavailable <if [Stable] is constructed> <in this city>","[+15]% Production when constructing [Short Ranged Units] units [in this city]","[+15]% Production when constructing [Long Ranged Units] units [in this city]"],
+	},
+    //Common Buildings - Ancient Era Column 1
 	{
 		"name": "Granary","food": 2,"percentStatBonus": {"food": 10},"maintenance": 1,"hurryCostModifier": 25,"requiredTech": "Pottery",
 		"uniques": [],
@@ -158,10 +173,6 @@
 		"uniques": ["[+1 Production] from [Tin] tiles [in this city]","[+1 Production] from [Copper] tiles [in this city]","[+1 Production] from [Iron] tiles [in this city]",],
 	},
 	//Column 5//
-	{
-		"name": "Stable","maintenance": 1,"requiredNearbyImprovedResources": ["Camels","Horses"],"requiredTech": "Horseback Riding",
-		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]","[+1 Production] from [Pasture] tiles [in this city]",],
-	},
 	//Column 6//
 	{
 		"name": "Prison","maintenance": 2,"requiredTech": "Code of Laws"
