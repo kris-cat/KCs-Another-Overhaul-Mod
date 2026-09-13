@@ -64,7 +64,8 @@
 			"Occurs at temperature between [-0.8] and [-0.7] and humidity between [0] and [0.5]",
 			"Occurs at temperature between [-0.7] and [-0.6] and humidity between [0] and [0.2]",
             "Always Fertility [-1] for Map Generation",
-            "Considered [Undesirable] when determining start locations",]
+            "Considered [Undesirable] when determining start locations",
+			"Becomes [Tundra] when adjacent to [River]",]
 	},
 	{
 		"name": "Tundra","type": "Land","food": 1,"movementCost": 1,"RGB": [40, 71, 31], 
