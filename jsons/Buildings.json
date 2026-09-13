@@ -48,7 +48,7 @@
 	//Cultural - Classical Era
 	{
 		"name": "Theatre","culture": 2,"maintenance": 1,"specialistSlots": {"Artist": 1},"requiredResource": "Specialisation Slot","requiredTech": "Drama and Poetry"
-		"uniques": ["[+1 Culture] from [Borough] tiles [in this city]"],
+		"uniques": ["[+2 Culture] from [Borough] tiles [in this city]"],
 	},
 	//Cultural - Post-Classical Era
 	{
@@ -58,7 +58,7 @@
 	//Governmental - Ancient Era
 	{
 		"name": "Archives","science": 1,"maintenance": 1,"specialistSlots": {"Bureaucrat": 1},"requiredResource": "Specialisation Slot","requiredTech": "Mathematics"
-		"uniques": ["[-20]% maintenance cost for [all] buildings [in this city]"],
+		"uniques": ["[+1 Science] from [Borough] tiles [in this city]","[-20]% maintenance cost for [all] buildings [in this city]"],
 	},
 	//Governmental - Classical Era
 	{
