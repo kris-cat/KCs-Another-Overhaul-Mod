@@ -153,7 +153,7 @@
 	},
 	{
 		"name": "Target Range","requiredBuilding": "Barracks","production": 1,"maintenance": 1,"specialistSlots": {"Commander": 1},"requiredTech": "Engineering",
-		"uniques": ["Unavailable <if [Stable] is constructed> <in this city>","[+15]% Production when constructing [Short Ranged Units] units [in this city]","[+15]% Production when constructing [Long Ranged Units] units [in this city]"],
+		"uniques": ["Unavailable <if [Stable] is constructed> <in this city>","[+15]% Production when constructing [Short Ranged Unit] units [in this city]","[+15]% Production when constructing [Long Ranged Unit] units [in this city]"],
 	},
     //Common Buildings - Ancient Era Column 1
 	{
