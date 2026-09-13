@@ -116,7 +116,7 @@
 		"attackSound": "nonmetalhit",
 	},
 	{
-		"name": "Scout","replaces": "Scout","uniqueTo": "Inca","unitType": "Scouting Unit","movement": 3,"strength": 5,"cost": 25,
+		"name": "Chasqui","replaces": "Scout","uniqueTo": "Inca","unitType": "Scouting Unit","movement": 3,"strength": 5,"cost": 25,
 		"requiredTech": "Hunting",
 		"uniques": ["Double movement in [Hill]","Can build [Road] improvements on tiles"],
 		"attackSound": "nonmetalhit",
@@ -275,6 +275,12 @@
 		"name": "Chu-Ko-Nu","replaces": "Crossbowman","uniqueTo": "China","unitType": "Short Ranged Unit","movement": 2,"range": 1,"strength": 21,"rangedStrength": 18,"cost": 90,
 		"requiredTech": "Physics",
 		"uniques": ["Can move after attacking","[1] additional attacks per turn"],
+		"attackSound": "nonmetalhit",
+	},
+	{
+		"name": "Warak’aq","replaces": "Crossbowman","uniqueTo": "Inca","unitType": "Short Ranged Unit","movement": 2,"range": 1,"strength": 21,"rangedStrength": 27,"cost": 100,
+		"requiredTech": "Physics",
+		"uniques": ["Can move after attacking",],
 		"attackSound": "nonmetalhit",
 	},
 	{
