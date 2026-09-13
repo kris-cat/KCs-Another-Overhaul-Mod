@@ -57,12 +57,12 @@
 	},
 	//Governmental - Ancient Era
 	{
-		"name": "Archives","maintenance": 1,"specialistSlots": {"Bureaucrat": 1},"requiredResource": "Specialisation Slot","requiredTech": "Mathematics"
+		"name": "Archives","science": 1,"maintenance": 1,"specialistSlots": {"Bureaucrat": 1},"requiredResource": "Specialisation Slot","requiredTech": "Mathematics"
 		"uniques": ["[-20]% maintenance cost for [all] buildings [in this city]"],
 	},
 	//Governmental - Classical Era
 	{
-		"name": "Courthouse","requiredBuilding": "Archives","maintenance": 1,"specialistSlots": {"Bureaucrat": 1},"requiredTech": "Code of Laws"
+		"name": "Courthouse","culture": 1,"requiredBuilding": "Archives","maintenance": 1,"specialistSlots": {"Bureaucrat": 1},"requiredTech": "Code of Laws"
 		"uniques": ["[-20]% Unhappiness from [Population] [in this city]"],
 	},
 	//Religious - Ancient Era
