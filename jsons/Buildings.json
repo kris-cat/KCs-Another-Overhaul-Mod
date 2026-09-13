@@ -164,6 +164,10 @@
 		"name": "Barracks","production": 2,"maintenance": 1,"greatPersonPoints": {"Great General": 1},"specialistSlots": {"Commander": 1},"requiredResource": "Specialisation Slot","requiredTech": "Iron Working",
 		"uniques": ["New [Military] units start with [15] XP [in this city]"]
 	},
+	{
+		"name": "Kallanka","replaces": "Barracks","uniqueTo": "Inca","production": 2,"culture": 2,"maintenance": 1,"greatPersonPoints": {"Great General": 1},"greatPersonPoints": {"Great Artist": 1},"specialistSlots": {"Commander": 1},"requiredResource": "Specialisation Slot","requiredTech": "Iron Working",
+		"uniques": ["New [Military] units start with [15] XP [in this city]",]
+	},
 	//Militaristic - Classical Era
 	{
 		"name": "Stable","requiredBuilding": "Barracks","production": 2,"maintenance": 1,"specialistSlots": {"Commander": 1},"requiredTech": "Horseback Riding",
@@ -176,8 +180,12 @@
 	},
     //Common Buildings - Ancient Era Column 1
 	{
-		"name": "Granary","food": 2,"percentStatBonus": {"food": 10},"maintenance": 1,"hurryCostModifier": 25,"requiredTech": "Pottery",
+		"name": "Granary","food": 2,"percentStatBonus": {"food": 5},"maintenance": 1,"hurryCostModifier": 25,"requiredTech": "Pottery",
 		"uniques": [],
+	},
+	{
+		"name": "Qullqa","replaces": "Granary","uniqueTo": "Inca","food": 2,"percentStatBonus": {"food": 10},"maintenance": 1,"hurryCostModifier": 25,"requiredTech": "Pottery",
+		"uniques": ["[+10]% Food is carried over after population increases [in this city]"],
 	},
 	{
 		"name": "Potter","production": 1,"gold": 1,"maintenance": 0,"hurryCostModifier": 25,"requiredTech": "Pottery",
