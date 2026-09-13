@@ -47,7 +47,7 @@
 	},
 	{
 		"name": "Madrasah","replaces": "University","uniqueTo": "Arabia","requiredBuilding": "Library","maintenance": 1,"specialistSlots": {"Scientist": 1},"requiredTech": "Theology"
-		"uniques": ["[+1 Science] per [2] population [in this city]","[+2 Faith] from every [Scientist] <in this city>"],
+		"uniques": ["[+1 Science] per [2] population [in this city]","[+2 Faith] from every [Scientist] <in this city>","Comment [Unlocked at [Theology]]"],
 	},
 	//Cultural - Classical Era
 	{
@@ -108,6 +108,10 @@
 	{
 		"name": "Market","gold": 3,"maintenance": 0,"greatPersonPoints": {"Great Merchant": 1},"specialistSlots": {"Merchant": 1},"requiredResource": "Specialisation Slot","requiredTech": "The Wheel",
 		"uniques": ["[+1 Gold] from [Borough] tiles [in this city]"]
+	},
+	{
+		"name": "Bazaar","replaces": "Market","uniqueTo": "Arabia","gold": 5,"maintenance": 0,"greatPersonPoints": {"Great Merchant": 1},"specialistSlots": {"Merchant": 1},"requiredResource": "Specialisation Slot","requiredTech": "The Wheel",
+		"uniques": ["[+1 Gold] from [Borough] tiles [in this city]","Provides 1 extra copy of each improved luxury resource near this City",]
 	},
 	//Commercial - Post-Classical Era
 	{
