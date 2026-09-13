@@ -38,16 +38,19 @@
 	//Specialisation Buildings - Scientific - Ancient Era
 	{
 		"name": "Library","science": 2,"maintenance": 1,"greatPersonPoints": {"Great Scientist": 1},"specialistSlots": {"Scientist": 1},"requiredResource": "Specialisation Slot","requiredTech": "Writing"
-		"uniques": ["[+1 Science] from [Borough] tiles [in this city]"],
+		"uniques": ["Scientific Building",
+			"[+1 Science] from [Borough] tiles [in this city]"],
 	},
 	//Scientific - Post-Classical Era
 	{
 		"name": "University","requiredBuilding": "Library","maintenance": 1,"specialistSlots": {"Scientist": 1},"requiredTech": "Education"
-		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"uniques": ["Scientific Building",
+			"[+1 Science] per [2] population [in this city]"],
 	},
 	{
 		"name": "Madrasah","replaces": "University","uniqueTo": "Arabia","requiredBuilding": "Library","maintenance": 1,"specialistSlots": {"Scientist": 1},"requiredTech": "Theology"
-		"uniques": ["[+1 Science] per [2] population [in this city]","[+2 Faith] from every [Scientist] <in this city>","Comment [Unlocked at [Theology]]"],
+		"uniques": ["Scientific Building",
+			"[+1 Science] per [2] population [in this city]","[+2 Faith] from every [Scientist] <in this city>","Comment [Unlocked at [Theology]]"],
 	},
 	//Cultural - Classical Era
 	{
@@ -72,37 +75,45 @@
 	//Religious - Ancient Era
 	{
 		"name": "Shrine","faith": 2,"maintenance": 1,"greatPersonPoints": {"Great Prophet": 1},"specialistSlots": {"Priest": 1},"requiredResource": "Specialisation Slot","requiredTech": "Calendar",
-		"uniques": ["[+1 Faith] from [Borough] tiles [in this city]","Only available <when religion is enabled>",]
+		"uniques": ["Religious Building",
+			"[+1 Faith] from [Borough] tiles [in this city]","Only available <when religion is enabled>",]
 	},
 	//Religious - Classical Era
 	{
 		"name": "Temple","requiredBuilding": "Shrine","maintenance": 1,"specialistSlots": {"Priest": 1},"requiredTech": "Theology",
-		"uniques": ["Only available <when religion is enabled>","Unavailable <if [Monastery] is constructed> <in this city>","[+1 Faith] per [2] population [in this city]"]
+		"uniques": ["Religious Building",
+			"Only available <when religion is enabled>","Unavailable <if [Monastery] is constructed> <in this city>","[+1 Faith] per [2] population [in this city]"]
 	},
 	{
 		"name": "Monastery","requiredBuilding": "Shrine","food": 1,"faith": 1,"maintenance": 1,"specialistSlots": {"Priest": 1},"requiredTech": "Theology",
-		"uniques": ["Only available <when religion is enabled>","Unavailable <if [Temple] is constructed> <in this city>","[+1 Food, +1 Faith] from [Mountain] tiles [in this city]"]
+		"uniques": ["Religious Building",
+			"Only available <when religion is enabled>","Unavailable <if [Temple] is constructed> <in this city>","[+1 Food, +1 Faith] from [Mountain] tiles [in this city]"]
 	},
 	//Religious Buildings//
 	{
 		"name": "Cathedral","requiredBuilding": "Shrine","cost": 0,"faith": 2,"culture": 2,
-		"uniques": ["Unbuildable","Only available <when religion is enabled>"]
+		"uniques": ["Religious Building",
+			"Unbuildable","Only available <when religion is enabled>"]
 	},
 	{
 		"name": "Mosque","requiredBuilding": "Shrine","cost": 0,"faith": 2,"science": 2,
-		"uniques": ["Unbuildable","Only available <when religion is enabled>"]
+		"uniques": ["Religious Building",
+			"Unbuildable","Only available <when religion is enabled>"]
 	},
 	{
 		"name": "Pagoda","requiredBuilding": "Shrine","cost": 0,"faith": 2,"happiness": 2,
-		"uniques": ["Unbuildable","Only available <when religion is enabled>"]
+		"uniques": ["Religious Building",
+			"Unbuildable","Only available <when religion is enabled>"]
 	},
 	{
 		"name": "Synagogue","requiredBuilding": "Shrine","cost": 0,"faith": 4,
-		"uniques": ["Unbuildable","Only available <when religion is enabled>"]
+		"uniques": ["Religious Building",
+			"Unbuildable","Only available <when religion is enabled>"]
 	},
 	{
 		"name": "Wat","requiredBuilding": "Shrine","cost": 0,"faith": 2,
-		"uniques": ["Unbuildable","Only available <when religion is enabled>","[+1 Faith] from every [Priest] <in this city>"]
+		"uniques": ["Religious Building",
+			"Unbuildable","Only available <when religion is enabled>","[+1 Faith] from every [Priest] <in this city>"]
 	},
 	//Commercial - Classical Era
 	{
