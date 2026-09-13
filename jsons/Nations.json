@@ -30,7 +30,7 @@
 
     },
 	{
-		"name": "Babylon","leaderName": "Nebuchadnezzar II","adjective": ["Babylonian"],"startBias": ["Grassland"],"preferredVictoryType": "Domination",
+		"name": "Babylon","leaderName": "Nebuchadnezzar II","adjective": ["Babylonian"],"startBias": ["Grassland"],"preferredVictoryType": "Domination","personality": "Nebuchadnezzar II","favoredReligion": "Islam",
 		"startIntroPart1": "May the gods bless you, great Nebuchadnezzar, ruler of ancient Babylon! Built 5000 years ago, Babylon emerged as an empire in 1800 BC, thanks to godlike Hammurabi, The Giver of Law. Falling under the Kassites assaults then the Assyrian domination, Babylon was reborn from its ashes, gaining back its independance, and became the beacon for Arts and Learning in the ancient world. O Nebuchadnezzar, after your death, Babylon quickly fell, conquered by the mighty Persians, and then by the Greeks, until the great city disappeared forever in 141 BC.",
 		"startIntroPart2": "Great Nebuchadnezzar, Babylon's glory still lives through you and your people. Will you create a spark to enlighten the world again? Will your new empire shine through the ages of history?",
 		"declaringWar": "The demon wants the blood of soldiers!","attacked": "Oh well, I presume you know what you're doing.","defeated": "It is over. Perhaps now I shall have peace, at last.","introduction": "Are you real or a phantom?",
