@@ -92,7 +92,7 @@
 			"Starts with [Mining]",
 			"Comment []",
 			"Comment [Nation Ability: Mit’a]",
-			"[+1 Food] from every [Mountain] <in tiles adjacent to [Terrace farm] tiles>",
+			"[+1 Food] from every [Mountain] <for every adjacent [Terrace farm]>",
 			"[+1 Food] from every [Terrace farm] <for every adjacent [Mountain]>",
 			"Comment [Leader Ability: Qhapaq Ñan]",
 			"[-50]% maintenance on road & railroads <in [Hill] tiles>",
