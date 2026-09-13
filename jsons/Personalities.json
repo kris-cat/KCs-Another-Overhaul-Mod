@@ -21,6 +21,27 @@
         }
     },
     {
+        "name": "Nebuchadnezzar II",
+        "production": 4,
+        "food": 8,
+        "gold": 4,
+        "science": 8,
+        "culture": 5,
+        "happiness": 5,
+        "faith": 5,
+        "military": 6,
+        "aggressive": 8,
+        "declareWar": 7,
+        "commerce": 5,
+        "diplomacy": 5,
+        "loyal": 3,
+        "expansion": 7,
+        "denounceWillingness": 4,
+        "priorities": {
+            
+        }
+    },
+    {
         "name": "Qin Shi Huang",
         "production": 8,
         "food": 6,
