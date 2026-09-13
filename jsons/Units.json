@@ -26,7 +26,7 @@
 	//Great People
 	{
 		"name": "Great Scientist",
-		"unitType": "Civilian",
+		"unitType": "Civilian Unit",
 		"uniques": [
             "Can hurry technology research",
             "Is part of Great Person group [Great Person]",
@@ -35,7 +35,7 @@
 	},
 	{
 		"name": "Great Artist",
-		"unitType": "Civilian",
+		"unitType": "Civilian Unit",
 		"uniques": [
             "Can generate a large amount of culture",
             "Is part of Great Person group [Great Person]",
@@ -44,7 +44,7 @@
 	},
 	{
 		"name": "Great Administrator",
-		"unitType": "Civilian",
+		"unitType": "Civilian Unit",
 		"uniques": [
             "Empire enters a [8]-turn Golden Age <by consuming this unit>",
             "Is part of Great Person group [Great Person]",
@@ -53,7 +53,7 @@
 	},
 	{
 		"name": "Great Prophet",
-		"unitType": "Civilian",
+		"unitType": "Civilian Unit",
 		"uniques": [
             "Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
 			"Removes other religions when spreading religion",
@@ -68,7 +68,7 @@
 	},
 	{
 		"name": "Great Merchant",
-		"unitType": "Civilian",
+		"unitType": "Civilian Unit",
 		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
             "Is part of Great Person group [Great Person]",
 			"Great Person - [Commercial]", "Unbuildable", "Uncapturable"],
@@ -76,7 +76,7 @@
 	},
 	{
 		"name": "Great Engineer",
-		"unitType": "Civilian",
+		"unitType": "Civilian Unit",
 		"uniques": ["Can speed up construction of a building",
             "Is part of Great Person group [Great Person]",
             "Great Person - [Industrial]", "Unbuildable", "Uncapturable"],
@@ -84,7 +84,7 @@
 	},
 	{
 		"name": "Great General",
-		"unitType": "Civilian",
+		"unitType": "Civilian Unit",
 		"uniques": [
             "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles",
 			"Can be earned through combat <for [Land] units>",
