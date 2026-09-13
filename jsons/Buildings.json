@@ -48,7 +48,7 @@
 	//Cultural - Classical Era
 	{
 		"name": "Theatre","culture": 2,"maintenance": 1,"specialistSlots": {"Artist": 1},"requiredResource": "Specialisation Slot","requiredTech": "Drama and Poetry"
-		"uniques": ["[+2 Culture] from [Borough] tiles [in this city]"],
+		"uniques": ["[+1 Culture] from every [Wonders] <in this city>","[+2 Culture] from [Borough] tiles [in this city]"],
 	},
 	//Cultural - Post-Classical Era
 	{
@@ -129,7 +129,7 @@
 	//Industrial - Classical and Post-Classical Era
 	{
 		"name": "Water Mill","requiredBuilding": "Workshop","food": 1,"production": 3,"maintenance": 1,"specialistSlots": {"Engineer": 1},"requiredTech": "Hydrology",
-		"uniques": ["Unavailable <if [Wind Mill] is constructed> <in this city>",]
+		"uniques": ["Unavailable <if [Windmill] is constructed> <in this city>",]
 	},
 	{
 		"name": "Windmill","requiredBuilding": "Workshop","production": 2,"maintenance": 1,"specialistSlots": {"Engineer": 1},"requiredTech": "Mechanics",
@@ -203,4 +203,10 @@
 		"name": "Mint","requiredNearbyImprovedResources": ["Copper","Gold Ore", "Silver"],"requiredTech": "Currency"
 		"uniques": ["[+2 Gold] from [Copper] tiles [in this city]", "[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]"],
 	},
+	//Wonders - Ancient Era
+	
+	//Wonders - Classical Era
+	
+	//Wonders - Post-Classical
+	
 ]
