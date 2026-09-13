@@ -221,7 +221,7 @@
         "uniques": ["Free [Apostle] appears"],
 	},
 	{
-		"name": "Great Library","science": 5,"isWonder": true,"requiredTech": "Calendar",
+		"name": "The Great Library","science": 5,"isWonder": true,"requiredTech": "Calendar",
         "uniques": ["Free Technology"],
 	},
 	{
@@ -234,7 +234,7 @@
 	},
 	//Wonders - Classical Era
 	{
-		"name": "Great Lighthouse","gold": 5,"requiredBuilding": "Lighthouse","isWonder": true,"requiredTech": "Celestial Navigation",
+		"name": "The Great Lighthouse","gold": 5,"requiredBuilding": "Lighthouse","isWonder": true,"requiredTech": "Celestial Navigation",
         "uniques": ["[+1 Gold] from every [Lighthouse]"],
 	},
 	{
@@ -267,7 +267,7 @@
 	},
 	//Wonders - Post-Classical
 	{
-		"name": "Oxford University","science": 3,"percentStatBonus": {"science": 25},"isWonder": true,"requiredTech": "Physics",
+		"name": "Oxford University","requiredBuilding": "University","science": 3,"percentStatBonus": {"science": 25},"isWonder": true,"requiredTech": "Education",
         "uniques": ["[+1 Science] from every [University]"],
 	},
 	{
@@ -277,5 +277,17 @@
 	{
 		"name": "Alhambra","culture": 3,"percentStatBonus": {"culture": 25},"isWonder": true,"requiredTech": "Feudalism",
         "uniques": ["New [Land] units start with [+15] XP [in all cities]"],
+	},
+	{
+		"name": "Himeji Castle","culture": 3,"isWonder": true,"requiredTech": "Gunpowder",
+        "uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",],
+	},
+	{
+		"name": "Forbidden Palace","science": 3,"isWonder": true,"requiredTech": "Paper",
+        "uniques": ["[+2 Culture] from [Borough] tiles [in this city]"],
+	},
+	{
+		"name": "Leaning Tower of Pisa","culture": 10,"gold": 4,"isWonder": true,"requiredTech": "Artisanship",
+        "uniques": [],
 	},
 ]
