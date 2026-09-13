@@ -23,6 +23,60 @@
 			"Requires at least [2] population","[-1] population [in this city]"],
 		"hurryCostModifier": 20
 	},
+	//Great People
+	{
+		"name": "Great Scientist",
+		"unitType": "Civilian",
+		"uniques": [
+            "Can hurry technology research",
+            "Is part of Great Person group [Great Person]",
+            "Great Person - [Scientific]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Artist",
+		"unitType": "Civilian",
+		"uniques": [
+            "Can generate a large amount of culture",
+            "Is part of Great Person group [Great Person]",
+            "Great Person - [Cultural]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Administrator",
+		"unitType": "Civilian",
+		"uniques": [
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "Is part of Great Person group [Great Person]",
+            "Great Person - [Governmental]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+            "Is part of Great Person group [Great Person]",
+			"Great Person - [Commercial]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Engineer",
+		"unitType": "Civilian",
+		"uniques": ["Can speed up construction of a building",
+            "Is part of Great Person group [Great Person]",
+            "Great Person - [Industrial]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+            "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles",
+			"Can be earned through combat <for [Land] units>",
+            "Is part of Great Person group [Military Leader]",
+			"Great Person - [Army]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
 	//Religious Units
 	{
 		"name": "Apostle","unitType": "Civilian Unit","movement": 2,"religiousStrength": 1000
