@@ -52,7 +52,7 @@
 	//Cultural - Classical Era
 	{
 		"name": "Theatre","culture": 2,"maintenance": 1,"greatPersonPoints": {"Great Artist": 1},"specialistSlots": {"Artist": 1},"requiredResource": "Specialisation Slot","requiredTech": "Drama and Poetry"
-		"uniques": ["[+1 Culture] from every [Wonders] <in this city>","[+2 Culture] from [Borough] tiles [in this city]"],
+		"uniques": ["[+1 Culture] from every [Wonders] <in this city>","[+1 Culture] from [Borough] tiles [in this city]"],
 	},
 	//Cultural - Post-Classical Era
 	{
