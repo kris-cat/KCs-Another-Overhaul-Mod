@@ -19,13 +19,13 @@
 	},
 	{
 		"name":"Priest",
-		"greatPersonPoints": {"Great Prophet": 2},
+		"greatPersonPoints": {"Great Prophet": 3},
 		"faith":3,
 		"color": [204,204,204]
 	},
 	{
 		"name":"Merchant",
-		"greatPersonPoints": {"Great Merchant": 2},
+		"greatPersonPoints": {"Great Merchant": 3},
 		"gold":3,
 		"color": [255,215,0]
 	},
@@ -36,7 +36,7 @@
 	}
     {
 		"name":"Engineer",
-		"greatPersonPoints": {"Great Engineer": 2},
+		"greatPersonPoints": {"Great Engineer": 3},
 		"production":3,
 		"color": [139,69,19]
 	},
@@ -47,7 +47,7 @@
 	},
 	{
 		"name":"Commander",
-		"greatPersonPoints": {"Great General": 2},
+		"greatPersonPoints": {"Great General": 3},
 		"production":2,"gold":2,
 		"color": [241,13,12]
 	},
