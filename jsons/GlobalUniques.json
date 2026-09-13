@@ -23,10 +23,10 @@
         "Provides [1] [Specialisation Slot] <in cities with at least [27] [Population]>",
         "Provides [1] [Specialisation Slot] <in cities with at least [30] [Population]>",
         //Urban District//
-        "Provides [1] [Urban District] <in cities with at least [8] [Population]>",
-        "Provides [1] [Urban District] <in cities with at least [16] [Population]>",
-        "Provides [1] [Urban District] <in cities with at least [24] [Population]>",
-        "Provides [1] [Urban District] <in cities with at least [32] [Population]>",
+        "Provides [1] [Urban Expansion Slot] <in cities with at least [8] [Population]>",
+        "Provides [1] [Urban Expansion Slot] <in cities with at least [16] [Population]>",
+        "Provides [1] [Urban Expansion Slot] <in cities with at least [24] [Population]>",
+        "Provides [1] [Urban Expansion Slot] <in cities with at least [32] [Population]>",
     ],
     "civilopediaText": [
         {"text": "Global uniques are ruleset-wide modifiers that apply to all civilizations."}
