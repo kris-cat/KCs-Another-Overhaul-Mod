@@ -16,23 +16,23 @@
 	},
 	//Urban District Buildings
 	{
-		"name": "Urban Expansion 1","cost": 50,"maintenance": 0,"requiredResource": "Urban Expansion Slot",
+		"name": "Urban Expansion 1","cost": 25,"maintenance": 0,"requiredResource": "Urban Expansion Slot",
 		"uniques": ["Creates a [Borough] improvement on a specific tile"]
 	},
 	{
-		"name": "Urban Expansion 2","cost": 100,"maintenance": 0,"requiredResource": "Urban Expansion Slot",
+		"name": "Urban Expansion 2","cost": 75,"maintenance": 0,"requiredResource": "Urban Expansion Slot",
 		"uniques": ["Creates a [Borough] improvement on a specific tile"]
 	},
 	{
-		"name": "Urban Expansion 3","cost": 150,"maintenance": 0,"requiredResource": "Urban Expansion Slot",
+		"name": "Urban Expansion 3","cost": 125,"maintenance": 0,"requiredResource": "Urban Expansion Slot",
 		"uniques": ["Creates a [Borough] improvement on a specific tile"]
 	},
 	{
-		"name": "Urban Expansion 4","cost": 200,"maintenance": 0,"requiredResource": "Urban Expansion Slot",
+		"name": "Urban Expansion 4","cost": 175,"maintenance": 0,"requiredResource": "Urban Expansion Slot",
 		"uniques": ["Creates a [Borough] improvement on a specific tile"]
 	},
 	{
-		"name": "Urban Expansion 5","cost": 250,"maintenance": 0,"requiredResource": "Urban Expansion Slot",
+		"name": "Urban Expansion 5","cost": 225,"maintenance": 0,"requiredResource": "Urban Expansion Slot",
 		"uniques": ["Creates a [Borough] improvement on a specific tile"]
 	},
 	//Specialisation Buildings - Scientific - Ancient Era
