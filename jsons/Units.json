@@ -253,7 +253,7 @@
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Camel Archer","unitType": "Heavy Mobile Unit","movement": 3,"range": 1,"strength": 24,"rangedStrength": 21,"cost": 150,
+		"name": "Camel Archer","unitType": "Heavy Mobile Unit","movement": 3,"range": 1,"strength": 21,"rangedStrength": 21,"cost": 150,
 		"requiredTech": "Horse Collar",
 		"uniques": ["Mounted","Only available <with [Camels]>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
 		"attackSound": "metalhit"
