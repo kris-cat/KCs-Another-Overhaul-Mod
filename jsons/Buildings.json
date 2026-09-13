@@ -113,7 +113,7 @@
 	//Maritime - Classical Era
 	{
 		"name": "Lighthouse","food": 1,"gold": 2,"maintenance": 0,"specialistSlots": {"Captain": 1},"requiredResource": "Specialisation Slot","requiredTech": "Celestial Navigation",
-		"uniques": ["[+1 Food] from [Borough] tiles [in this city]","Must be next to [Coastal Water]",]
+		"uniques": ["[+1 Gold] from [Borough] tiles [in this city]","Must be next to [Coastal Water]",]
 	},
 	//Maritime - Post-Classical Era
 	{
