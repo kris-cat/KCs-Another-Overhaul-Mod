@@ -298,4 +298,16 @@
 		"name": "Leaning Tower of Pisa","culture": 10,"gold": 4,"isWonder": true,"requiredTech": "Artisanship",
         "uniques": [],
 	},
+	//National Wonders
+	{
+		"name": "Round City","uniqueTo": "Arabia","cost": 125,"isNationalWonder": true,"requiredTech": "Feudalism",
+        "uniques": [
+			"Comment [This city doesn't need to meet the population requirements to gain its first 3 [Urban Expansion Slot]]]",
+			"[+2 Science, +2 Faith] from [Borough] tiles [in this city]",
+			"Provides [3] [Urban Expansion Slot] <in this city><hidden from users>",
+			"Provides [-1] [Urban Expansion Slot] <in cities with at least [6] [Population]><hidden from users>",
+			"Provides [-1] [Urban Expansion Slot] <in cities with at least [12] [Population]><hidden from users>",
+			"Provides [-1] [Urban Expansion Slot] <in cities with at least [18] [Population]><hidden from users>",
+		],
+	},
 ]
