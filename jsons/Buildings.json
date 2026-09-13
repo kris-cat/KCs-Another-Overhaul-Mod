@@ -209,7 +209,7 @@
         "uniques": ["[+1 Food] from every [Camp]"],
 	},
 	{
-		"name": "Hanging Gardens","requiredBuilding": "Gardens","food": 3,"isWonder": true,"requiredTech": "Irrigation",
+		"name": "Hanging Gardens","requiredBuilding": "Garden","food": 3,"isWonder": true,"requiredTech": "Irrigation",
         "uniques": ["Provides a [Garden] in your first [4] cities for free"],
 	},
 	{
