@@ -101,6 +101,12 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Legion","replaces": "Swordsman","uniqueTo": "Rome","unitType": "Melee Unit","movement": 2,"strength": 24,"cost": 100,
+		"requiredTech": "Metal Casting","upgradesTo": "Man-At-Arms","requiredResource": "Iron",
+		"uniques": ["[25]% Strength <vs [Anti-Mobile Unit]>","Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles"],
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Heavy Spearman","unitType": "Anti-Mobile Unit","movement": 2,"strength": 20,"cost": 75,
 		"requiredTech": "Metal Casting","upgradesTo": "Pikeman",
 		"uniques": ["[50]% Strength <vs [Light Mobile Unit]>","[50]% Strength <vs [Heavy Mobile Unit]>"],
@@ -134,6 +140,14 @@
 		"name": "Catapult","unitType": "Siege Unit","movement": 2,"range": 2,"strength": 16,"rangedStrength": 20,"cost": 100,
 		"requiredTech": "Construction","upgradesTo": "Trebuchet",
 		"uniques": ["[-50]% Strength <vs [non-[City]]>","[+100]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
+			"Must set up to ranged attack", "[-1] Sight", "Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
+		"attackSound": "throw"
+	},
+	{
+		"name": "Ballista","replaces": "Catapult","uniqueTo": "Rome","unitType": "Siege Unit","movement": 2,"range": 2,"strength": 16,"rangedStrength": 24,"cost": 100,
+		"requiredTech": "Construction","upgradesTo": "Trebuchet",
+		"uniques": ["[+50]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
 			"Must set up to ranged attack", "[-1] Sight", "Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "throw"
@@ -179,6 +193,12 @@
 		"name": "Crossbowman","unitType": "Short Ranged Unit","movement": 2,"range": 1,"strength": 21,"rangedStrength": 21,"cost": 90,
 		"requiredTech": "Physics",
 		"uniques": ["Can move after attacking"],
+		"attackSound": "nonmetalhit",
+	},
+	{
+		"name": "Chu-Ko-Nu","replaces": "Crossbowman","uniqueTo": "China","unitType": "Short Ranged Unit","movement": 2,"range": 1,"strength": 21,"rangedStrength": 18,"cost": 90,
+		"requiredTech": "Physics",
+		"uniques": ["Can move after attacking","[1] additional attacks per turn"],
 		"attackSound": "nonmetalhit",
 	},
 	{
