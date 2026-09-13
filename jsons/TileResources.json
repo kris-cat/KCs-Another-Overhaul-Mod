@@ -54,6 +54,7 @@
 
 	{"name": "Furs","resourceType": "Luxury","uniques": ["Doesn't generate naturally","Excluded from map editor"]},
 	{"name": "Leather","resourceType": "Luxury","uniques": ["Doesn't generate naturally","Excluded from map editor"]},
+	{"name": "Porcelain","resourceType": "Luxury","uniques": ["Doesn't generate naturally","Excluded from map editor"]},
     {
 		"name": "Copper", "resourceType": "Strategic","improvement": "Mine","improvementStats": {"production": 1,"gold": 1},
 		"terrainsCanBeFoundOn": ["Grassland","Hill"],"revealedBy": "Mining",
