@@ -28,7 +28,7 @@
 		"name": "Borough",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
-			"Urban District",
+			"Urban District","Cannot be built on [Mountain] tiles",
 			"Ensures a minimum tile yield of [+2 Production]","Must be next to [Urban District]",
             "Irremovable", "Removes removable features when built","Tile provides yield without assigned population",
 		],
