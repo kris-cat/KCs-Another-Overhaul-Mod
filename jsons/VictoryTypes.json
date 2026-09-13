@@ -6,4 +6,11 @@
         "victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     }
+    {
+        "name": "Religious",
+        "victoryScreenHeader": "Convert the world win!",
+        "milestones": ["Become the world religion"],
+        "victoryString": "The people of the world needed to believe in something greater than themselves. Many prophets and philosophers have come and gone, but it was your civilization that lighted the path. You will be revered for your wisdom for generations to come!",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    }
 ]
