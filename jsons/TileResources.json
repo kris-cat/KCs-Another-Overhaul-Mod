@@ -1,7 +1,7 @@
 [
 	//Local Mechanics//
 	{"name": "Specialisation Slot", "resourceType": "Strategic","uniques": ["Doesn't generate naturally", "Cannot be traded", "City-level resource","Excluded from map editor",]},
-	{"name": "Urban District", "resourceType": "Strategic","uniques": ["Doesn't generate naturally", "Cannot be traded", "City-level resource","Excluded from map editor",]},
+	{"name": "Urban Expansion Slot", "resourceType": "Strategic","uniques": ["Doesn't generate naturally", "Cannot be traded", "City-level resource","Excluded from map editor",]},
 	//Bonus Resources//
 	//Marine Animals//
 	{"name": "Salmon", "resourceType": "Bonus","improvement": "Fishing Boats", "improvementStats": {"food": 1},
