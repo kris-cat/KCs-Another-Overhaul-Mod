@@ -45,19 +45,19 @@
         "name": "Qin Shi Huang",
         "production": 8,
         "food": 6,
-        "gold": 4,
+        "gold": 7,
         "science": 5,
         "culture": 5,
         "happiness": 6,
-        "faith": 4,
+        "faith": 3,
         "military": 5,
         "aggressive": 6,
         "declareWar": 6,
-        "commerce": 4,
+        "commerce": 3,
         "diplomacy": 8,
         "loyal": 5,
         "expansion": 8,
-        "denounceWillingness": 5,
+        "denounceWillingness": 4,
         "priorities": {
             
         }
