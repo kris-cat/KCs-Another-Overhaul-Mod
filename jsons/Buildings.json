@@ -124,6 +124,10 @@
 		"name": "Bazaar","replaces": "Market","uniqueTo": "Arabia","gold": 5,"maintenance": 0,"greatPersonPoints": {"Great Merchant": 1},"specialistSlots": {"Merchant": 1},"requiredResource": "Specialisation Slot","requiredTech": "The Wheel",
 		"uniques": ["[+1 Gold] from [Borough] tiles [in this city]","Provides 1 extra copy of each improved luxury resource near this City",]
 	},
+	{
+		"name": "Forum","replaces": "Market","uniqueTo": "Rome","gold": 4,"happiness": 1,"maintenance": 0,"greatPersonPoints": {"Great Merchant": 1},"specialistSlots": {"Merchant": 1},"requiredResource": "Specialisation Slot","requiredTech": "The Wheel",
+		"uniques": ["[+1 Gold] from [Borough] tiles [in this city]","[+10]% Great Person generation [in this city]",]
+	},
 	//Commercial - Post-Classical Era
 	{
 		"name": "Bank","requiredBuilding": "Market","maintenance": 0,"specialistSlots": {"Merchant": 1},"requiredTech": "Banking",
