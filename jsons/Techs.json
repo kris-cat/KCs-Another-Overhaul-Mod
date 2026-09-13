@@ -77,7 +77,7 @@
 		]
     },
 	{
-        "columnNumber": 3,"era": "Ancient Era","techCost": 60,"buildingCost": 50,"wonderCost": 175,"techs": 
+        "columnNumber": 3,"era": "Ancient Era","techCost": 60,"buildingCost": 55,"wonderCost": 175,"techs": 
         [
 			{
                 "name": "Mathematics","row": 3,"prerequisites": ["Writing"],
@@ -98,7 +98,7 @@
     },
 	//Classical Era
 	{
-        "columnNumber": 4,"era": "Classical Era","techCost": 75,"buildingCost": 60,"wonderCost": 225,"techs": 
+        "columnNumber": 4,"era": "Classical Era","techCost": 75,"buildingCost": 65,"wonderCost": 225,"techs": 
         [
 			{
                 "name": "Celestial Navigation","row": 1,"prerequisites": ["Sailing","Mathematics"],
@@ -123,7 +123,7 @@
 		]
     },
 	{
-        "columnNumber": 5,"era": "Classical Era","techCost": 105,"buildingCost": 70,"wonderCost": 225,"techs": 
+        "columnNumber": 5,"era": "Classical Era","techCost": 105,"buildingCost": 75,"wonderCost": 225,"techs": 
         [
 			{
                 "name": "Shipbuilding","row": 1,"prerequisites": ["Celestial Navigation"],
@@ -152,7 +152,7 @@
 		]
     },
 	{
-        "columnNumber": 6,"era": "Classical Era","techCost": 145,"buildingCost": 80,"wonderCost": 225,"techs": 
+        "columnNumber": 6,"era": "Classical Era","techCost": 145,"buildingCost": 90,"wonderCost": 225,"techs": 
         [
 			{
                 "name": "Theology","row": 3,"prerequisites": ["Drama and Poetry","Code of Laws"],
@@ -178,7 +178,7 @@
     },
 	//Post-Classical Era
 	{
-        "columnNumber": 7,"era": "Post-Classical Era","techCost": 200,"buildingCost": 100,"wonderCost": 350,"techs": 
+        "columnNumber": 7,"era": "Post-Classical Era","techCost": 200,"buildingCost": 110,"wonderCost": 350,"techs": 
         [
 			{
                 "name": "Education","row": 4,"uniques": ["Unavailable <before discovering [Theology]> <before discovering [Civil Service]> <hidden from users>"]
@@ -199,7 +199,7 @@
 		]
     },
 	{
-        "columnNumber": 8,"era": "Post-Classical Era","techCost": 235,"buildingCost": 120,"wonderCost": 350,"techs": 
+        "columnNumber": 8,"era": "Post-Classical Era","techCost": 235,"buildingCost": 150,"wonderCost": 350,"techs": 
         [
 			{
                 "name": "Compass","row": 1,"prerequisites": ["Shipbuilding","Education"],
@@ -220,7 +220,7 @@
 		]
     },
 	{
-        "columnNumber": 9,"era": "Post-Classical Era","techCost": 265,"buildingCost": 140,"wonderCost": 350,"techs": 
+        "columnNumber": 9,"era": "Post-Classical Era","techCost": 265,"buildingCost": 190,"wonderCost": 350,"techs": 
         [
 			{
                 "name": "Maritime Industry","row": 1,"prerequisites": ["Compass"],
