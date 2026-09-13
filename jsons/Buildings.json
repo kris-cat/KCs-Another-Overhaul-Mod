@@ -129,7 +129,7 @@
 	//Industrial - Classical and Post-Classical Era
 	{
 		"name": "Water Mill","requiredBuilding": "Workshop","food": 1,"production": 3,"maintenance": 1,"specialistSlots": {"Engineer": 1},"requiredTech": "Hydrology",
-		"uniques": ["Unavailable <if [Windmill] is constructed> <in this city>",]
+		"uniques": ["Unavailable <if [Windmill] is constructed> <in this city>","Must be on [River]"]
 	},
 	{
 		"name": "Windmill","requiredBuilding": "Workshop","production": 2,"maintenance": 1,"specialistSlots": {"Engineer": 1},"requiredTech": "Mechanics",
@@ -268,7 +268,7 @@
 	//Wonders - Post-Classical
 	{
 		"name": "Oxford University","requiredBuilding": "University","science": 3,"percentStatBonus": {"science": 25},"isWonder": true,"requiredTech": "Education",
-        "uniques": ["[+1 Science] from every [University]"],
+        "uniques": ["Free Technology"],
 	},
 	{
 		"name": "Notre Dame","happiness": 10,"faith": 4,"isWonder": true,"requiredTech": "Physics",
