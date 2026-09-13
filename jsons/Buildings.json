@@ -204,9 +204,78 @@
 		"uniques": ["[+2 Gold] from [Copper] tiles [in this city]", "[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]"],
 	},
 	//Wonders - Ancient Era
-	
+	{
+		"name": "Temple of Artemis","food": 3,"isWonder": true,"requiredTech": "Hunting",
+        "uniques": ["[+1 Food] from every [Camp]"],
+	},
+	{
+		"name": "Hanging Gardens","requiredBuilding": "Gardens","food": 3,"isWonder": true,"requiredTech": "Irrigation",
+        "uniques": ["Provides a [Garden] in your first [4] cities for free"],
+	},
+	{
+		"name": "Pyramids","isWonder": true,"requiredTech": "Masonry",
+        "uniques": ["[2] free [Worker] units appear","[+1 Happiness] from every [Temple]"],
+	},
+	{
+		"name": "Stonehenge","faith": 3,"isWonder": true,"requiredTech": "Calendar",
+        "uniques": ["Free [Apostle] appears"],
+	},
+	{
+		"name": "Great Library","science": 5,"isWonder": true,"requiredTech": "Calendar",
+        "uniques": ["Free Technology"],
+	},
+	{
+		"name": "Statue of Zeus","culture": 3,"isWonder": true,"requiredTech": "Bronze Working",
+        "uniques": ["[+100]% XP gained from combat"],
+	},
+	{
+		"name": "Mausoleum of Halicarnassus","culture": 3,"isWonder": true,"requiredTech": "Craftsmanship",
+        "uniques": ["[+1 Gold] from every [Quarry]"],
+	},
 	//Wonders - Classical Era
-	
+	{
+		"name": "Great Lighthouse","gold": 5,"requiredBuilding": "Lighthouse","isWonder": true,"requiredTech": "Celestial Navigation",
+        "uniques": ["[+1 Gold] from every [Lighthouse]"],
+	},
+	{
+		"name": "Colossus","gold": 3,"requiredBuilding": "Lighthouse","isWonder": true,"requiredTech": "Celestial Navigation",
+        "uniques": ["[+1 Gold] from [Water] tiles [in this city]"],
+	},
+	{
+		"name": "Oracle","culture": 3,"isWonder": true,"requiredTech": "Philosophy",
+        "uniques": ["Free Social Policy"],
+	},
+	{
+		"name": "Great Wall","culture": 3,"isWonder": true,"requiredTech": "Engineering",
+        "uniques": ["Enemy [Land] units must spend [1] extra movement points when inside your territory",],
+	},
+	{
+		"name": "Machu Picchu","gold": 4,"isWonder": true,"requiredTech": "Construction",
+        "uniques": ["Must have an owned [{non-[Natural Wonder]} {Mountain}] within [2] tiles","[+1 Gold] from every [Mountain]","[+1 Gold] from every [Borough] <in tiles adjacent to [Mountain] tiles>"],
+	},
+	{
+		"name": "Petra","culture": 3,"isWonder": true,"requiredTech": "Currency",
+        "uniques": ["Must be next to [Desert]", "[+1 Food, +1 Production, +1 Gold] from [Desert] tiles without [Floodplain] [in this city]",],
+	},
+	{
+		"name": "Hagia Sophia","faith": 5,"isWonder": true,"requiredTech": "Theology",
+        "uniques": ["[4] free [Missionary] units appear",],
+	},
+	{
+		"name": "Chichen Itza","happiness": 5,"isWonder": true,"requiredTech": "Civil Service",
+        "uniques": ["Empire enters golden age",],
+	},
 	//Wonders - Post-Classical
-	
+	{
+		"name": "Oxford University","science": 3,"percentStatBonus": {"science": 25},"isWonder": true,"requiredTech": "Physics",
+        "uniques": ["[+1 Science] from every [University]"],
+	},
+	{
+		"name": "Notre Dame","happiness": 10,"faith": 4,"isWonder": true,"requiredTech": "Physics",
+        "uniques": [],
+	},
+	{
+		"name": "Alhambra","culture": 3,"percentStatBonus": {"culture": 25},"isWonder": true,"requiredTech": "Feudalism",
+        "uniques": ["New [Land] units start with [+15] XP [in all cities]"],
+	},
 ]
