@@ -45,6 +45,10 @@
 		"name": "University","requiredBuilding": "Library","maintenance": 1,"specialistSlots": {"Scientist": 1},"requiredTech": "Education"
 		"uniques": ["[+1 Science] per [2] population [in this city]"],
 	},
+	{
+		"name": "Madrasah","replaces": "University","uniqueTo": "Arabia","requiredBuilding": "Library","maintenance": 1,"specialistSlots": {"Scientist": 1},"requiredTech": "Theology"
+		"uniques": ["[+1 Science] per [2] population [in this city]","[+2 Faith] from every [Scientist] <in this city>"],
+	},
 	//Cultural - Classical Era
 	{
 		"name": "Theatre","culture": 2,"maintenance": 1,"specialistSlots": {"Artist": 1},"requiredResource": "Specialisation Slot","requiredTech": "Drama and Poetry"
