@@ -118,8 +118,14 @@
 			"Starts with [Mining]",
 			"Comment []",
 			"Comment [Nation Ability: All Roads Lead to Rome]",
+			"[+10]% [Production] from Trade Routes","[+10]% [Gold] from Trade Routes",
+			"[+1 Food, +1 Gold] [in capital] <for every [Cities]>",
 			"Comment []",
 			"Comment [Leader Ability: Pax Romana]",
+			"Comment [+30% Science, Culture in the Capital during a Golden Age while not at war.]","Comment [+10% Strength in Friendly tiles during a Golden Age while at war.]",
+			"[+30]% [Science] [in capital] <during a Golden Age><when not at war><hidden from users>","[+30]% [Culture] [in capital] <during a Golden Age> <when not at war><hidden from users>",
+			"[+10]% Strength <in [Friendly] tiles> <during a Golden Age> <when at war><hidden from users>"
+			
 		],
 		"cities": [
 			"Rome","Antium","Cumae","Neapolis","Ravenna","Arretium","Mediolanum","Arpinum","Circei","Setia",
