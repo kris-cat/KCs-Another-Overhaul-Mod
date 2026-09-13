@@ -115,6 +115,12 @@
 		"uniques": [],
 		"attackSound": "nonmetalhit",
 	},
+	{
+		"name": "Scout","replaces": "Scout","uniqueTo": "Inca","unitType": "Scouting Unit","movement": 3,"strength": 5,"cost": 25,
+		"requiredTech": "Hunting",
+		"uniques": ["Double movement in [Hill]","Can build [Road] improvements on tiles"],
+		"attackSound": "nonmetalhit",
+	},
     {
 		"name": "Warrior","unitType": "Melee Unit","movement": 2,"strength": 10,"cost": 40,
 		"upgradesTo": "Swordsman",
@@ -130,7 +136,7 @@
 	{
 		"name": "Chariot Archer","unitType": "Heavy Mobile Unit","movement": 3,"range": 1,"strength": 6,"rangedStrength": 8,"cost": 80,
 		"requiredTech": "The Wheel","requiredResource": "Copper","upgradesTo": "Cataphract",
-		"uniques": ["Mounted","No defensive terrain bonus", "Rough terrain penalty"],
+		"uniques": ["Mounted","Only available <with [Horses]>","No defensive terrain bonus", "Rough terrain penalty"],
 		"attackSound": "nonmetalhit",
 	},
 	{
@@ -172,13 +178,13 @@
 	{
 		"name": "Horseman","unitType": "Light Mobile Unit","movement": 4,"strength": 18,"cost": 100,
 		"requiredTech": "Horseback Riding","upgradesTo": "Courser",
-		"uniques": ["Mounted","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Mounted","Only available <with [Horses]>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
 		"attackSound": "metalhit"
 	},
 	{
 		"name": "Cataphract","unitType": "Heavy Mobile Unit","movement": 3,"strength": 20,"cost": 120,
 		"requiredTech": "Horseback Riding","requiredResource": "Iron","upgradesTo": "Knight",
-		"uniques": ["Mounted","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Mounted","Only available <with [Horses]>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -237,13 +243,26 @@
 	{
 		"name": "Courser","unitType": "Light Mobile Unit","movement": 4,"strength": 27,"cost": 120,
 		"requiredTech": "Stirrups",
-		"uniques": ["Mounted","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Mounted","Only available <with [Horses]>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
 		"attackSound": "metalhit"
 	},
 	{
 		"name": "Knight","unitType": "Heavy Mobile Unit","movement": 3,"strength": 30,"cost": 150,
 		"requiredTech": "Horse Collar","requiredResource": "Iron",
-		"uniques": ["Mounted","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Mounted","Only available <with [Horses]>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Camel Archer","unitType": "Heavy Mobile Unit","movement": 3,"range": 1,"strength": 24,"rangedStrength": 21,"cost": 150,
+		"requiredTech": "Horse Collar",
+		"uniques": ["Mounted","Only available <with [Camels]>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Mamluk Archer","replaces": "Camel Archer","uniqueTo": "Arabia",
+		"unitType": "Heavy Mobile Unit","movement": 4,"range": 1,"strength": 24,"rangedStrength": 21,"cost": 150,
+		"requiredTech": "Horse Collar",
+		"uniques": ["Mounted","Only available <with [Camels]>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
 		"attackSound": "metalhit"
 	},
 	{
