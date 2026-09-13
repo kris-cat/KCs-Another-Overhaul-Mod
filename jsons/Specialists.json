@@ -2,25 +2,30 @@
 	{
 		"name":"Scientist",
 		"science":2,
+		"greatPersonPoints": {"Great Scientist": 2},
 		"color": [0,0,255]
 	},
 	{
 		"name":"Artist",
 		"culture":2,
+		"greatPersonPoints": {"Great Artist": 2},
 		"color": [160,32,240]
 	},
 	{
 		"name":"Bureaucrat",
+		"greatPersonPoints": {"Great Administrator": 2},
 		"science":1,"culture": 1,
 		"color": [160,32,240]
 	},
 	{
 		"name":"Priest",
+		"greatPersonPoints": {"Great Prophet": 2},
 		"faith":2,
 		"color": [204,204,204]
 	},
 	{
 		"name":"Merchant",
+		"greatPersonPoints": {"Great Merchant": 2},
 		"gold":3,
 		"color": [255,215,0]
 	},
@@ -31,6 +36,7 @@
 	}
     {
 		"name":"Engineer",
+		"greatPersonPoints": {"Great Engineer": 2},
 		"production":2,
 		"color": [139,69,19]
 	},
@@ -41,6 +47,7 @@
 	},
 	{
 		"name":"Commander",
+		"greatPersonPoints": {"Great General": 2},
 		"production":1,"gold":2,
 		"color": [241,13,12]
 	},
