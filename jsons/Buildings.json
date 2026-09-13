@@ -302,8 +302,9 @@
 	{
 		"name": "Round City","uniqueTo": "Arabia","cost": 125,"isNationalWonder": true,"requiredTech": "Feudalism",
         "uniques": [
-			"Comment [This city doesn't need to meet the population requirements to gain its first 3 [Urban Expansion Slot]]]",
+			"Comment [This city doesn't need to meet the population requirements to gain its first 3 [Urban Expansion Slot]]",
 			"[+2 Science, +2 Faith] from [Borough] tiles [in this city]",
+			"[+2 Gold] from [Borough] tiles [in this city] <during a Golden Age>",
 			"Provides [3] [Urban Expansion Slot] <in this city><hidden from users>",
 			"Provides [-1] [Urban Expansion Slot] <in cities with at least [6] [Population]><hidden from users>",
 			"Provides [-1] [Urban Expansion Slot] <in cities with at least [12] [Population]><hidden from users>",
