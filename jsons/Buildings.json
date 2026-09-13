@@ -221,8 +221,8 @@
         "uniques": ["[2] free [Worker] units appear","[+1 Happiness] from every [Temple]"],
 	},
 	{
-		"name": "Stonehenge","faith": 3,"isWonder": true,"requiredTech": "Calendar",
-        "uniques": ["Free [Apostle] appears"],
+		"name": "Stonehenge","greatPersonPoints": {"Great Prophet": 5},"faith": 3,"isWonder": true,"requiredTech": "Calendar",
+        "uniques": [],
 	},
 	{
 		"name": "The Great Library","science": 5,"isWonder": true,"requiredTech": "Calendar",
