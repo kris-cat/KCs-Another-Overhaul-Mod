@@ -53,6 +53,6 @@
     {
         "name": "Raider Ship",
         "movementType": "Water"
-        "uniques": ["Invisible to non-adjacent units", "Can see invisible [Raider] units"]
+        "uniques": ["Invisible to non-adjacent units", "Can see invisible [Raider Ship] units"]
     },
 ]
