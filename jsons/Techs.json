@@ -191,7 +191,7 @@
                 "name": "Stirrups","row": 6,"prerequisites": ["Horseback Riding","The Plough"],
 			},
 			{
-                "name": "Physics","row": 7,"prerequisites": ["Machinery"],
+                "name": "Physics","row": 10,"prerequisites": ["Machinery"],
 			},
 			{
                 "name": "Feudalism","row": 11,"prerequisites": ["The Plough","Guilds"],
