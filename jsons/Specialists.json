@@ -1,26 +1,26 @@
 [
 	{
 		"name":"Scientist",
-		"science":2,
-		"greatPersonPoints": {"Great Scientist": 2},
+		"science":3,
+		"greatPersonPoints": {"Great Scientist": 3},
 		"color": [0,0,255]
 	},
 	{
 		"name":"Artist",
-		"culture":2,
-		"greatPersonPoints": {"Great Artist": 2},
+		"culture":3,
+		"greatPersonPoints": {"Great Artist": 3},
 		"color": [160,32,240]
 	},
 	{
 		"name":"Bureaucrat",
-		"greatPersonPoints": {"Great Administrator": 2},
-		"science":1,"culture": 1,
+		"greatPersonPoints": {"Great Administrator": 3},
+		"science":1,"culture": 1,"happiness": 1,
 		"color": [160,32,240]
 	},
 	{
 		"name":"Priest",
 		"greatPersonPoints": {"Great Prophet": 2},
-		"faith":2,
+		"faith":3,
 		"color": [204,204,204]
 	},
 	{
@@ -31,24 +31,24 @@
 	},
 	{
 		"name":"Captain",
-		"food":1,"gold":2,
+		"food":2,"gold":2,
 		"color": [191,0,65]
 	}
     {
 		"name":"Engineer",
 		"greatPersonPoints": {"Great Engineer": 2},
-		"production":2,
+		"production":3,
 		"color": [139,69,19]
 	},
 	{
 		"name":"Entertainer",
-		"happiness":2,
+		"happiness":3,
 		"color": [255,255,0]
 	},
 	{
 		"name":"Commander",
 		"greatPersonPoints": {"Great General": 2},
-		"production":1,"gold":2,
+		"production":2,"gold":2,
 		"color": [241,13,12]
 	},
 ]
