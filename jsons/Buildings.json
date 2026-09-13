@@ -38,7 +38,7 @@
 	//Specialisation Buildings - Scientific - Ancient Era
 	{
 		"name": "Library","science": 2,"maintenance": 1,"specialistSlots": {"Scientist": 1},"requiredResource": "Specialisation Slot","requiredTech": "Writing"
-		"uniques": [],
+		"uniques": ["[+1 Science] from [Borough] tiles [in this city]"],
 	},
 	//Scientific - Post-Classical Era
 	{
@@ -48,7 +48,7 @@
 	//Cultural - Classical Era
 	{
 		"name": "Theatre","culture": 2,"maintenance": 1,"specialistSlots": {"Artist": 1},"requiredResource": "Specialisation Slot","requiredTech": "Drama and Poetry"
-		"uniques": [],
+		"uniques": ["[+1 Culture] from [Borough] tiles [in this city]"],
 	},
 	//Cultural - Post-Classical Era
 	{
@@ -68,7 +68,7 @@
 	//Religious - Ancient Era
 	{
 		"name": "Shrine","faith": 2,"maintenance": 1,"specialistSlots": {"Priest": 1},"requiredResource": "Specialisation Slot","requiredTech": "Calendar",
-		"uniques": ["Only available <when religion is enabled>",]
+		"uniques": ["[+1 Faith] from [Borough] tiles [in this city]","Only available <when religion is enabled>",]
 	},
 	//Religious - Classical Era
 	{
@@ -103,7 +103,7 @@
 	//Commercial - Classical Era
 	{
 		"name": "Market","gold": 3,"maintenance": 0,"specialistSlots": {"Merchant": 1},"requiredResource": "Specialisation Slot","requiredTech": "The Wheel",
-		"uniques": []
+		"uniques": ["[+1 Gold] from [Borough] tiles [in this city]"]
 	},
 	//Commercial - Post-Classical Era
 	{
@@ -113,7 +113,7 @@
 	//Maritime - Classical Era
 	{
 		"name": "Lighthouse","food": 1,"gold": 2,"maintenance": 0,"specialistSlots": {"Captain": 1},"requiredResource": "Specialisation Slot","requiredTech": "Celestial Navigation",
-		"uniques": ["Must be next to [Coastal Water]",]
+		"uniques": ["[+1 Food] from [Borough] tiles [in this city]","Must be next to [Coastal Water]",]
 	},
 	//Maritime - Post-Classical Era
 	{
@@ -124,7 +124,7 @@
 	//Industrial - Classical Era
 	{
 		"name": "Workshop","production": 2,"maintenance": 1,"specialistSlots": {"Engineer": 1},"requiredResource": "Specialisation Slot","requiredTech": "Craftsmanship",
-		"uniques": []
+		"uniques": ["[+1 Production] from [Borough] tiles [in this city]"]
 	},
 	//Industrial - Classical and Post-Classical Era
 	{
@@ -138,7 +138,7 @@
 	//Entertainment - Classical Era
 	{
 		"name": "Arena","happiness": 2,"maintenance": 1,"specialistSlots": {"Entertainer": 1},"requiredResource": "Specialisation Slot","requiredTech": "Construction",
-		"uniques": []
+		"uniques": ["[+1 Happiness] from [Borough] tiles [in this city]"]
 	},
 	//Militaristic - Ancient Era
 	{
