@@ -146,6 +146,12 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Ghazi","replaces": "Man-At-Arms","uniqueTo": "Arabia","unitType": "Melee Unit","movement": 2,"strength": 30,"cost": 90,
+		"requiredTech": "Theology",
+		"uniques": ["[25]% Strength <vs [Anti-Mobile Unit]>","No movement cost to pillage","Can move after attacking","Can be purchased with [Faith] [in all cities]"],
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Longswordsman","unitType": "Anti-Melee Unit","movement": 2,"strength": 30,"cost": 120,
 		"requiredTech": "Castles","requiredResource": "Iron",
 		"uniques": ["[50]% Strength <vs [Melee Unit]>"],
