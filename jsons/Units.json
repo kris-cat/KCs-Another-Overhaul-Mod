@@ -118,7 +118,7 @@
 	{
 		"name": "Chasqui","replaces": "Scout","uniqueTo": "Inca","unitType": "Scouting Unit","movement": 3,"strength": 5,"cost": 25,
 		"requiredTech": "Hunting",
-		"uniques": ["Double movement in [Hill]","Can build [Road] improvements on tiles"],
+		"uniques": ["Double movement in [Hill]"],
 		"attackSound": "nonmetalhit",
 	},
     {
