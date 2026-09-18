@@ -399,4 +399,9 @@
 			"Provides [-1] [Urban Expansion Slot] <in cities with at least [18] [Population]><hidden from users>",
 		],
 	},
+	//Victory Condition Buildings
+	{
+		"name": "Great Congress","isWonder": true,"culture": 1,"greatPersonPoints": {"Great Merchant": 2},"requiredTech": "Paper",
+		"uniques": ["Triggers voting for the Diplomatic Victory", "Only available <when [Diplomatic] Victory is enabled>", "Triggers a global alert upon completion"],
+	},
 ]
