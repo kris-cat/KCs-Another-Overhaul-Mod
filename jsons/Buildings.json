@@ -83,7 +83,7 @@
 		"name": "Library","science": 3,"maintenance": 1,"requiredResource": "Specialisation Slot","requiredTech": "Writing"
 		"greatPersonPoints": {"Great Scientist": 1},"specialistSlots": {"Scientist": 1},
 		"uniques": ["Scientific Building",
-			"[+1 Science] from [Borough] tiles [in this city]"],
+			"[+1 Science] from every [Wonders] <in this city>","[+1 Science] from [Borough] tiles [in this city]"],
 	},
 	//Scientific - Post-Classical Era
 	{
@@ -112,7 +112,7 @@
 	},
 	//Government - Ancient Era
 	{
-		"name": "Archives","science": 1,"culture": 1,"maintenance": 1,"requiredResource": "Specialisation Slot","requiredTech": "Mathematics"
+		"name": "Archives","science": 2,"culture": 1,"maintenance": 1,"requiredResource": "Specialisation Slot","requiredTech": "Mathematics"
 		"greatPersonPoints": {"Great Administrator": 1},"specialistSlots": {"Bureaucrat": 1},
 		"uniques": ["[-20]% maintenance cost for [all] buildings [in this city]"],
 	},
@@ -124,7 +124,7 @@
 	},
 	//Diplomatic - Classical Era
 	{
-		"name": "Consulate","science": 1,"culture": 1,"maintenance": 1,"requiredResource": "Specialisation Slot","requiredTech": "Civil Service"
+		"name": "Consulate","culture": 2,"science": 1,"maintenance": 1,"requiredResource": "Specialisation Slot","requiredTech": "Civil Service"
 		"specialistSlots": {"Diplomat": 1},
 		"uniques": ["[+2 Gold] <for every [Influence Point]>"],
 	},
@@ -158,14 +158,13 @@
 	{
 		"name": "Lighthouse","food": 2,"gold": 1,"maintenance": 0,"requiredResource": "Specialisation Slot","requiredTech": "Celestial Navigation",
 		"specialistSlots": {"Captain": 1},
-		"uniques": ["[+1 Gold] from [Borough] tiles [in this city]","Must be next to [Coastal Water]",]
+		"uniques": ["[+1 Gold] from [Borough] tiles [in this city]","[+1 Food] from [Coastal Water] tiles [in this city]","[+1 Food] from [Ocean] tiles [in this city]","Must be next to [Coastal Water]",]
 	},
 	//Maritime - Post-Classical Era
 	{
 		"name": "Harbor","requiredBuilding": "Lighthouse","gold": 3,"maintenance": 0,"requiredTech": "Compass",
 		"specialistSlots": {"Captain": 1},
-		"uniques": ["Must be next to [Coastal Water]","[+1 Food] from [Ocean] tiles [in this city]",
-			"[+1 Food] from [Coastal Water] tiles [in this city]",]
+		"uniques": ["Must be next to [Coastal Water]",]
 	},
 	//Entertainment - Classical Era
 	{
@@ -176,25 +175,25 @@
 	{
 		"name": "Grove","science": 2,"faith": 1,"maintenance": 1,"requiredResource": "Specialisation Slot","requiredTech": "Animal Husbandry",
 		"specialistSlots": {"Steward": 1},
-		"uniques": []
+		"uniques": ["[+1 Science] from [Preserve] tiles [in this city]",]
 	},
 	//Preservation - Post-Classical Era
 	{
 		"name": "Reserves","maintenance": 1,"requiredBuilding": "Grove","requiredTech": "Feudalism",
 		"specialistSlots": {"Steward": 1},
-		"uniques": []
+		"uniques": ["[+1 Food] from [Preserve] tiles [in this city]",]
 	},
 	//Gardening - Ancient Era
 	{
 		"name": "Garden","culture": 2,"gold": 1,"maintenance": 0,"requiredResource": "Specialisation Slot","requiredTech": "Irrigation",
 		"specialistSlots": {"Gardner": 1},
-		"uniques": []
+		"uniques": ["[+1 Culture] from [City Park] tiles [in this city]",]
 	},
 	//Gardening - Post-Classical Era
 	{
 		"name": "Pavillion","maintenance": 0,"requiredBuilding": "Garden","requiredTech": "Education",
 		"specialistSlots": {"Gardner": 1},
-		"uniques": []
+		"uniques": ["[+1 Gold] from [City Park] tiles [in this city]",]
 	},
 	//Industrial - Classical Era
 	{
@@ -229,35 +228,41 @@
 		"name": "Target Range","requiredBuilding": "Barracks","production": 2,"maintenance": 1,"specialistSlots": {"Commander": 1},"requiredTech": "Engineering",
 		"uniques": ["Unavailable <if [Stable] is constructed> <in this city>","[+15]% Production when constructing [Short Ranged Unit] units [in this city]","[+15]% Production when constructing [Long Ranged Unit] units [in this city]"],
 	},
+	//Militaristic - Classical Era
+	{
+		"name": "Arsenal","production": 2,"maintenance": 1,"requiredResource": "Specialisation Slot","requiredTech": "Shipbuilding",
+		"specialistSlots": {"Shipmaster": 1},
+		"uniques": ["Must be next to [Coastal Water]","New [Military] units start with [15] XP [in this city]"]
+	},
 	//Infrastructure Buildings - Ancient Era
 	{
 		"name": "Granary","food": 3,"maintenance": 1,"hurryCostModifier": 25,"requiredTech": "Pottery",
-		"uniques": [],
+		"uniques": ["City Infrastructure Building"],
 	},
 	{
 		"name": "Qullqa","replaces": "Granary","uniqueTo": "Inca","food": 4,"maintenance": 1,"hurryCostModifier": 25,"requiredTech": "Pottery",
-		"uniques": ["[+10]% Food is carried over after population increases [in this city]"],
+		"uniques": ["City Infrastructure Building","[+10]% Food is carried over after population increases [in this city]"],
 	},
 	{
 		"name": "Monument","culture": 1,"happiness": 1,"maintenance": 1,"hurryCostModifier": 40,"requiredTech": "Mining",
-		"uniques": []
+		"uniques": ["City Infrastructure Building"]
 	},
 	{
 		"name": "Well","maintenance": 1,"cost": 50,"hurryCostModifier": 40,"requiredTech": "Irrigation",
-		"uniques": ["Must be on [River]","[10]% Food is carried over after population increases [in this city]"],
+		"uniques": ["City Infrastructure Building","Must be on [River]","[10]% Food is carried over after population increases [in this city]"],
 	},
 	{
 		"name": "Cistern","maintenance": 1,"cost": 50,"hurryCostModifier": 40,"requiredTech": "Masonry",
-		"uniques": ["Must not be on [River]","[15]% Food is carried over after population increases [in this city]"],
+		"uniques": ["City Infrastructure Building","Must not be on [River]","[15]% Food is carried over after population increases [in this city]"],
 	},
 	//Classical Era
 	{
 		"name": "Prison","maintenance": 2,"requiredTech": "Code of Laws"
-		"uniques": ["Removes extra unhappiness from annexed cities","Can only be built <in [Annexed] cities>"],
+		"uniques": ["City Infrastructure Building","Removes extra unhappiness from annexed cities","Can only be built <in [Annexed] cities>"],
 	},
 	{
 		"name": "Dam","food": 2,"production": 1,"maintenance": 1,"hurryCostModifier": 40,"requiredTech": "Hydrology",
-		"uniques": ["Must be on [River]","[+2 Food, +1 Production] in cities on [Hill] tiles",],
+		"uniques": ["City Infrastructure Building","Must be on [River]","[+2 Food, +1 Production] in cities on [Hill] tiles",],
 	},
 
 	
