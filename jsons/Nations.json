@@ -7,6 +7,7 @@
 			"Comment []",
 		],
 	},
+	//Major
 	{
 		"name": "Arabia","leaderName": "Al-Mansur","adjective": ["Arabian"],"startBias": ["Desert","Oasis"],"preferredVictoryType": "Religious","personality": "Al-Mansur","favoredReligion": "Islam",
         "startIntroPart1": "Blessings of the Great God be upon you, O great caliph Harun al-Rashid, leader of the mighty Arabian people! The Muslim Empire, the Caliphate, born from chaos after the death of the prophet Muhammad in 632 AD, intended to apply the rule of God to all Earth. And by the will of God, the caliphate reached its full power, ruling Spain, North Africa, the Middle East, Anatolia, the Balkans and Persia, to even surpass the Great Roman Empire. The arts and sciences were a holy gift of Arabia during the Middle Ages, as the infidel lands of Europe delved deep into ignorance and chaos. Lasting for six hundred years, the Caliphate finally fell before the Mongols, the plague of the civilized world.",
@@ -136,5 +137,28 @@
 		"spyNames": [
 			"Flavius", "Regula", "Servius", "Lucia", "Cornelius", "Licina", "Canus", "Serpens", "Agrippa", "Brutus"
 		]
+	},
+	//City-States
+	{
+		"name": "Yerevan","adjective": ["Yerevantsi"],"cityStateType": "Cultured",
+		"declaringWar": "You leave us no choice. War it must be.","attacked": "Very well, this shall not be forgotten.","defeated": "We were too weak to protect ourselves...",
+		"outerColor": [0, 0, 0],"innerColor": [225, 194, 129],"cities": ["Yerevan"]
+	},
+	{
+		"name": "Cahokia","adjective": ["Cahokian"],"cityStateType": "Agricultural",
+		"declaringWar": "We have wanted this for a LONG time. War it shall be.","attacked": "Very well, we will kick you back to the ancient era!","defeated": "This isn't how it is supposed to be!",
+		"outerColor": [0, 0, 0],"innerColor": [255, 255, 255],"cities": ["Cahokia"]
+	},
+	{
+		"name": "Singapore","adjective": ["Singaporean"],"cityStateType": "Mercantile",
+		"declaringWar": "You leave us no choice. War it must be.","attacked": "Very well, this shall not be forgotten.","defeated": "Perhaps, in another world, we could have been friends...",
+		"outerColor": [0, 0, 0],"innerColor": [246, 253, 160],"cities": ["Singapore"]
+	},
+	{
+		"name": "M'Banza-Kongo","adjective": ["Angolan"],"cityStateType": "Militaristic",
+		"declaringWar": "Do you really think you can walk over us so easily? I will not let it happen. Not to Kongo - not to my people!",
+		"attacked": "We are no strangers to war. You have strayed from the right path, and now we will correct it.",
+		"defeated": "You are nothing but a glorified barbarian. Cruel, and ruthless.",
+		"outerColor": [0, 0, 0],"innerColor": [18, 188, 221],"cities": ["M'Banza-Kongo"],
 	},
 ]
