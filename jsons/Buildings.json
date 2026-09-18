@@ -125,13 +125,13 @@
 	//Diplomatic - Classical Era
 	{
 		"name": "Consulate","science": 1,"culture": 1,"maintenance": 1,"requiredResource": "Specialisation Slot","requiredTech": "Civil Service"
-		"greatPersonPoints": {"Great Diplomat": 1},"specialistSlots": {"Diplomat": 1},
+		"specialistSlots": {"Diplomat": 1},
 		"uniques": ["[+2 Gold] <for every [Influence Point]>"],
 	},
 	//Diplomatic - Post-Classical Era
 	{
 		"name": "Chancery","requiredBuilding": "Consulate","maintenance": 1,"requiredTech": "Banking"
-		"greatPersonPoints": {"Great Diplomat": 1},"specialistSlots": {"Diplomat": 1},
+		"specialistSlots": {"Diplomat": 1},
 		"uniques": ["[+1 Science, +1 Culture] <for every [Influence Point]>"],
 	},
 	//Commercial - Classical Era
