@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Route",
+        "description": "Build a road to connect your capital to our city.",
+        "influence": 30,
+        "duration": 60,
+        "weightForCityStateType": {
+            "Friendly": 2,
+            "Hostile": 0.2,
+        }
+    },
+    {
+        "name": "Connect Resource",
+        "description": "In order to make our civilizations stronger, connect [tileResource] to your trade network.",
+        "influence": 30,
+        "duration": 60,
+        "weightForCityStateType": {
+            "Friendly": 2,
+            "Hostile": 0.2,
+        }
+    },
+    {
+        "name": "Construct Wonder",
+        "description": "We recommend you to start building [wonder] to show the whole world your civilization strength.",
+        "influence": 60,
+        "duration": 60,
+        "weightForCityStateType": {
+            "Friendly": 2,
+            "Hostile": 0.2,
+        }
+    },
+    {
+        "name": "Acquire Great Person",
+        "description": "Great People can change the course of a Civilization! You will be rewarded for acquiring a new [greatPerson].",
+        "influence": 30,
+        "duration": 60,
+        "weightForCityStateType": {
+            "Friendly": 2,
+            "Hostile": 0.2,
+        }
+    },
+    {
+        "name": "Give Gold",
+        "description": "We are suffering great poverty after being robbed by [civName], and unless we receive a sum of Gold, it's only a matter of time before we collapse.",
+        "influence": 30,
+        "duration": 60,
+        "weightForCityStateType": {
+            "Friendly": 2,
+            "Hostile": 0.2,
+        }
+    },
+    {
+        "name": "Pledge to Protect",
+        "description": "We need your protection to stop the aggressions of [civName]. By signing a Pledge of Protection, you'll confirm the bond that ties us.",
+        "influence": 30,
+        "duration": 60,
+        "weightForCityStateType": {
+            "Friendly": 2,
+            "Hostile": 0.2,
+        }
+    },
+]
