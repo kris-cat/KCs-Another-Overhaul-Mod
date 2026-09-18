@@ -2,12 +2,12 @@
     {
         "name": "Cultured",
         "friendBonusUniques": [
-            "[+3 Culture] <before the [Post-Classical era]>",
-            "[+6 Culture] <starting from the [Post-Classical era]>"
+            "[+3 Culture] <before the [Post-Classical Era]>",
+            "[+6 Culture] <starting from the [Post-Classical Era]>"
         ],
         "allyBonusUniques": [
-            "[+6 Culture] <before the [Post-Classical era]>",
-            "[+12 Culture] <starting from the [Post-Classical era]>",
+            "[+6 Culture] <before the [Post-Classical Era]>",
+            "[+12 Culture] <starting from the [Post-Classical Era]>",
             "Provides [1] [Influence Point]"
         ],
         "color": [139, 96, 255]
@@ -22,12 +22,12 @@
     {
         "name": "Mercantile",
         "friendBonusUniques": [
-            "[+3 Gold] <before the [Post-Classical era]>",
-            "[+6 Gold] <starting from the [Post-Classical era]>"
+            "[+3 Gold] <before the [Post-Classical Era]>",
+            "[+6 Gold] <starting from the [Post-Classical Era]>"
         ],
         "allyBonusUniques": [
-            "[+6 Gold] <before the [Post-Classical era]>",
-            "[+12 Gold] <starting from the [Post-Classical era]>",
+            "[+6 Gold] <before the [Post-Classical Era]>",
+            "[+12 Gold] <starting from the [Post-Classical Era]>",
             "Provides [1] [Influence Point]"
         ],
         "color": [255, 216, 0]
