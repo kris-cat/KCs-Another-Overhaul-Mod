@@ -35,44 +35,7 @@
 		"name": "Urban Expansion 5","cost": 225,"maintenance": 0,"requiredResource": "Urban Expansion Slot",
 		"uniques": ["Creates a [Borough] improvement on a specific tile"]
 	},
-	//Specialisation Buildings - Scientific - Ancient Era
-	{
-		"name": "Library","science": 3,"maintenance": 1,"greatPersonPoints": {"Great Scientist": 1},"specialistSlots": {"Scientist": 1},"requiredResource": "Specialisation Slot","requiredTech": "Writing"
-		"uniques": ["Scientific Building",
-			"[+1 Science] from [Borough] tiles [in this city]"],
-	},
-	//Scientific - Post-Classical Era
-	{
-		"name": "University","requiredBuilding": "Library","maintenance": 1,"specialistSlots": {"Scientist": 1},"requiredTech": "Education"
-		"uniques": ["Scientific Building",
-			"[+1 Science] per [2] population [in this city]"],
-	},
-	{
-		"name": "Madrasah","replaces": "University","uniqueTo": "Arabia","requiredBuilding": "Library","maintenance": 1,"specialistSlots": {"Scientist": 1},"requiredTech": "Theology"
-		"uniques": ["Scientific Building",
-			"[+1 Science] per [2] population [in this city]","[+2 Faith] from every [Scientist] <in this city>","Comment [Unlocked at [Theology]]"],
-	},
-	//Cultural - Classical Era
-	{
-		"name": "Theatre","culture": 3,"maintenance": 1,"greatPersonPoints": {"Great Artist": 1},"specialistSlots": {"Artist": 1},"requiredResource": "Specialisation Slot","requiredTech": "Drama and Poetry"
-		"uniques": ["[+1 Culture] from every [Wonders] <in this city>","[+1 Culture] from [Borough] tiles [in this city]"],
-	},
-	//Cultural - Post-Classical Era
-	{
-		"name": "Opera House","requiredBuilding": "Theatre","maintenance": 1,"specialistSlots": {"Artist": 1},"requiredTech": "Paper"
-		"uniques": ["[+1 Culture] per [2] population [in this city]"],
-	},
-	//Governmental - Ancient Era
-	{
-		"name": "Archives","science": 1,"culture": 1,"maintenance": 1,"greatPersonPoints": {"Great Administrator": 1},"specialistSlots": {"Bureaucrat": 1},"requiredResource": "Specialisation Slot","requiredTech": "Mathematics"
-		"uniques": ["[+1 Science] from [Borough] tiles [in this city]","[-20]% maintenance cost for [all] buildings [in this city]"],
-	},
-	//Governmental - Classical Era
-	{
-		"name": "Courthouse","science": 1,"culture": 1,"requiredBuilding": "Archives","maintenance": 1,"specialistSlots": {"Bureaucrat": 1},"requiredTech": "Code of Laws"
-		"uniques": ["[-20]% Unhappiness from [Population] [in this city]"],
-	},
-	//Religious - Ancient Era
+	//Specialisation Buildings - Religious - Ancient Era
 	{
 		"name": "Shrine","faith": 3,"maintenance": 1,"greatPersonPoints": {"Great Prophet": 1},"specialistSlots": {"Priest": 1},"requiredResource": "Specialisation Slot","requiredTech": "Calendar",
 		"uniques": ["Religious Building",
@@ -115,34 +78,123 @@
 		"uniques": ["Religious Building",
 			"Unbuildable","Only available <when religion is enabled>","[+1 Faith] from every [Priest] <in this city>"]
 	},
+	//Scientific - Ancient Era
+	{
+		"name": "Library","science": 3,"maintenance": 1,"requiredResource": "Specialisation Slot","requiredTech": "Writing"
+		"greatPersonPoints": {"Great Scientist": 1},"specialistSlots": {"Scientist": 1},
+		"uniques": ["Scientific Building",
+			"[+1 Science] from [Borough] tiles [in this city]"],
+	},
+	//Scientific - Post-Classical Era
+	{
+		"name": "University","requiredBuilding": "Library","maintenance": 1,"requiredTech": "Education"
+		"greatPersonPoints": {"Great Scientist": 1},"specialistSlots": {"Scientist": 1},
+		"uniques": ["Scientific Building",
+			"[+1 Science] per [2] population [in this city]"],
+	},
+	{
+		"name": "Madrasah","replaces": "University","uniqueTo": "Arabia","requiredBuilding": "Library","maintenance": 1,"requiredTech": "Theology"
+		"greatPersonPoints": {"Great Scientist": 1},"specialistSlots": {"Scientist": 1},
+		"uniques": ["Scientific Building",
+			"[+1 Science] per [2] population [in this city]","[+2 Faith] from every [Scientist] <in this city>","Comment [Unlocked at [Theology]]"],
+	},
+	//Cultural - Classical Era
+	{
+		"name": "Theatre","culture": 3,"maintenance": 1,"requiredResource": "Specialisation Slot","requiredTech": "Drama and Poetry"
+		"greatPersonPoints": {"Great Artist": 1},"specialistSlots": {"Artist": 1},
+		"uniques": ["[+1 Culture] from every [Wonders] <in this city>","[+1 Culture] from [Borough] tiles [in this city]"],
+	},
+	//Cultural - Post-Classical Era
+	{
+		"name": "Opera House","requiredBuilding": "Theatre","maintenance": 1,"requiredTech": "Paper"
+		"greatPersonPoints": {"Great Artist": 1},"specialistSlots": {"Artist": 1},
+		"uniques": ["[+1 Culture] per [2] population [in this city]"],
+	},
+	//Government - Ancient Era
+	{
+		"name": "Archives","science": 1,"culture": 1,"maintenance": 1,"requiredResource": "Specialisation Slot","requiredTech": "Mathematics"
+		"greatPersonPoints": {"Great Administrator": 1},"specialistSlots": {"Bureaucrat": 1},
+		"uniques": ["[-20]% maintenance cost for [all] buildings [in this city]"],
+	},
+	//Government - Classical Era
+	{
+		"name": "Courthouse","requiredBuilding": "Archives","maintenance": 1,"requiredTech": "Code of Laws"
+		"greatPersonPoints": {"Great Administrator": 1},"specialistSlots": {"Bureaucrat": 1},
+		"uniques": ["[-20]% Unhappiness from [Population] [in this city]"],
+	},
+	//Diplomatic - Classical Era
+	{
+		"name": "Consulate","science": 1,"culture": 1,"maintenance": 1,"requiredResource": "Specialisation Slot","requiredTech": "Civil Service"
+		"greatPersonPoints": {"Great Diplomat": 1},"specialistSlots": {"Diplomat": 1},
+		"uniques": ["[+2 Gold] <for every [Influence Point]>"],
+	},
+	//Diplomatic - Post-Classical Era
+	{
+		"name": "Chancery","requiredBuilding": "Consulate","maintenance": 1,"requiredTech": "Banking"
+		"greatPersonPoints": {"Great Diplomat": 1},"specialistSlots": {"Diplomat": 1},
+		"uniques": ["[+1 Science, +1 Culture] <for every [Influence Point]>"],
+	},
 	//Commercial - Classical Era
 	{
-		"name": "Market","gold": 4,"maintenance": 0,"greatPersonPoints": {"Great Merchant": 1},"specialistSlots": {"Merchant": 1},"requiredResource": "Specialisation Slot","requiredTech": "The Wheel",
+		"name": "Market","gold": 3,"maintenance": 0,"greatPersonPoints": {"Great Merchant": 1},"specialistSlots": {"Merchant": 1},"requiredResource": "Specialisation Slot","requiredTech": "The Wheel",
 		"uniques": ["[+1 Gold] from [Borough] tiles [in this city]"]
 	},
 	{
-		"name": "Bazaar","replaces": "Market","uniqueTo": "Arabia","gold": 5,"maintenance": 0,"greatPersonPoints": {"Great Merchant": 1},"specialistSlots": {"Merchant": 1},"requiredResource": "Specialisation Slot","requiredTech": "The Wheel",
+		"name": "Bazaar","replaces": "Market","uniqueTo": "Arabia","gold": 4,"maintenance": 0,"greatPersonPoints": {"Great Merchant": 1},"specialistSlots": {"Merchant": 1},"requiredResource": "Specialisation Slot","requiredTech": "The Wheel",
 		"uniques": ["[+1 Gold] from [Borough] tiles [in this city]","Provides 1 extra copy of each improved luxury resource near this City",]
 	},
 	{
-		"name": "Forum","replaces": "Market","uniqueTo": "Rome","gold": 4,"happiness": 1,"maintenance": 0,"greatPersonPoints": {"Great Merchant": 1},"specialistSlots": {"Merchant": 1},"requiredResource": "Specialisation Slot","requiredTech": "The Wheel",
+		"name": "Forum","replaces": "Market","uniqueTo": "Rome","gold": 3,"happiness": 1,"maintenance": 0,"requiredResource": "Specialisation Slot","requiredTech": "The Wheel",
+		"greatPersonPoints": {"Great Merchant": 1},"specialistSlots": {"Merchant": 1},
 		"uniques": ["[+1 Gold] from [Borough] tiles [in this city]","[+10]% Great Person generation [in this city]",]
 	},
 	//Commercial - Post-Classical Era
 	{
-		"name": "Bank","requiredBuilding": "Market","maintenance": 0,"specialistSlots": {"Merchant": 1},"requiredTech": "Banking",
+		"name": "Bank","requiredBuilding": "Market","maintenance": 0,"requiredTech": "Banking",
+		"greatPersonPoints": {"Great Merchant": 1},"specialistSlots": {"Merchant": 1},
 		"uniques": ["[+1 Gold] per [2] population [in this city]"]
 	},
 	//Maritime - Classical Era
 	{
-		"name": "Lighthouse","food": 2,"gold": 2,"maintenance": 0,"specialistSlots": {"Captain": 1},"requiredResource": "Specialisation Slot","requiredTech": "Celestial Navigation",
+		"name": "Lighthouse","food": 2,"gold": 1,"maintenance": 0,"requiredResource": "Specialisation Slot","requiredTech": "Celestial Navigation",
+		"specialistSlots": {"Captain": 1},
 		"uniques": ["[+1 Gold] from [Borough] tiles [in this city]","Must be next to [Coastal Water]",]
 	},
 	//Maritime - Post-Classical Era
 	{
-		"name": "Harbor","requiredBuilding": "Lighthouse","gold": 3,"maintenance": 0,"specialistSlots": {"Captain": 1},"requiredTech": "Compass",
+		"name": "Harbor","requiredBuilding": "Lighthouse","gold": 3,"maintenance": 0,"requiredTech": "Compass",
+		"specialistSlots": {"Captain": 1},
 		"uniques": ["Must be next to [Coastal Water]","[+1 Food] from [Ocean] tiles [in this city]",
 			"[+1 Food] from [Coastal Water] tiles [in this city]",]
+	},
+	//Entertainment - Classical Era
+	{
+		"name": "Arena","happiness": 3,"maintenance": 1,"specialistSlots": {"Entertainer": 1},"requiredResource": "Specialisation Slot","requiredTech": "Construction",
+		"uniques": ["[+1 Happiness] from [Borough] tiles [in this city]"]
+	},
+	//Preservation - Ancient Era
+	{
+		"name": "Grove","science": 2,"faith": 1,"maintenance": 1,"requiredResource": "Specialisation Slot","requiredTech": "Animal Husbandry",
+		"specialistSlots": {"Steward": 1},
+		"uniques": []
+	},
+	//Preservation - Post-Classical Era
+	{
+		"name": "Reserves","maintenance": 1,"requiredBuilding": "Grove","requiredTech": "Feudalism",
+		"specialistSlots": {"Steward": 1},
+		"uniques": []
+	},
+	//Gardening - Ancient Era
+	{
+		"name": "Garden","culture": 2,"gold": 1,"maintenance": 0,"requiredResource": "Specialisation Slot","requiredTech": "Irrigation",
+		"specialistSlots": {"Gardner": 1},
+		"uniques": []
+	},
+	//Gardening - Post-Classical Era
+	{
+		"name": "Pavillion","maintenance": 0,"requiredBuilding": "Garden","requiredTech": "Education",
+		"specialistSlots": {"Gardner": 1},
+		"uniques": []
 	},
 	//Industrial - Classical Era
 	{
@@ -156,12 +208,7 @@
 	},
 	{
 		"name": "Windmill","requiredBuilding": "Workshop","production": 2,"maintenance": 1,"specialistSlots": {"Engineer": 1},"requiredTech": "Mechanics",
-		"uniques": ["Unavailable <if [Water Mill] is constructed> <in this city>","[+2 Production] in cities on [Hill] tiles","[+2 Production] in cities on [Coastal] tiles"]
-	},
-	//Entertainment - Classical Era
-	{
-		"name": "Arena","happiness": 3,"maintenance": 1,"specialistSlots": {"Entertainer": 1},"requiredResource": "Specialisation Slot","requiredTech": "Construction",
-		"uniques": ["[+1 Happiness] from [Borough] tiles [in this city]"]
+		"uniques": ["Unavailable <if [Water Mill] is constructed> <in this city>","[+2 Production] in cities on [Hill] tiles","[+1 Production] in cities on [Coastal] tiles"]
 	},
 	//Militaristic - Ancient Era
 	{
@@ -182,15 +229,38 @@
 		"name": "Target Range","requiredBuilding": "Barracks","production": 2,"maintenance": 1,"specialistSlots": {"Commander": 1},"requiredTech": "Engineering",
 		"uniques": ["Unavailable <if [Stable] is constructed> <in this city>","[+15]% Production when constructing [Short Ranged Unit] units [in this city]","[+15]% Production when constructing [Long Ranged Unit] units [in this city]"],
 	},
-    //Common Buildings - Ancient Era Column 1
+	//Infrastructure Buildings - Ancient Era
 	{
-		"name": "Granary","food": 2,"percentStatBonus": {"food": 5},"maintenance": 1,"hurryCostModifier": 25,"requiredTech": "Pottery",
+		"name": "Granary","food": 3,"maintenance": 1,"hurryCostModifier": 25,"requiredTech": "Pottery",
 		"uniques": [],
 	},
 	{
-		"name": "Qullqa","replaces": "Granary","uniqueTo": "Inca","food": 2,"percentStatBonus": {"food": 10},"maintenance": 1,"hurryCostModifier": 25,"requiredTech": "Pottery",
+		"name": "Qullqa","replaces": "Granary","uniqueTo": "Inca","food": 4,"maintenance": 1,"hurryCostModifier": 25,"requiredTech": "Pottery",
 		"uniques": ["[+10]% Food is carried over after population increases [in this city]"],
 	},
+	{
+		"name": "Monument","culture": 1,"happiness": 1,"maintenance": 1,"hurryCostModifier": 40,"requiredTech": "Mining",
+		"uniques": []
+	},
+	{
+		"name": "Well","maintenance": 1,"cost": 50,"hurryCostModifier": 40,"requiredTech": "Irrigation",
+		"uniques": ["Must be on [River]","[10]% Food is carried over after population increases [in this city]"],
+	},
+	{
+		"name": "Cistern","maintenance": 1,"cost": 50,"hurryCostModifier": 40,"requiredTech": "Masonry",
+		"uniques": ["Must not be on [River]","[15]% Food is carried over after population increases [in this city]"],
+	},
+	//Classical Era
+	{
+		"name": "Prison","maintenance": 2,"requiredTech": "Code of Laws"
+		"uniques": ["Removes extra unhappiness from annexed cities","Can only be built <in [Annexed] cities>"],
+	},
+	{
+		"name": "Dam","food": 2,"production": 1,"maintenance": 1,"hurryCostModifier": 40,"requiredTech": "Hydrology",
+		"uniques": ["Must be on [River]","[+2 Food, +1 Production] in cities on [Hill] tiles",],
+	},
+
+	
 	{
 		"name": "Potter","production": 1,"gold": 1,"maintenance": 0,"hurryCostModifier": 25,"requiredTech": "Pottery",
 		"requiredNearbyImprovedResources": ["Clay"],
@@ -207,15 +277,6 @@
         "requiredNearbyImprovedResources": ["Wheat","Rice","Maize"],
 		"uniques": ["[+1 Food] from [Grain] tiles [in this city]"],
 	},
-    {
-		"name": "Monument","culture": 1,"happiness": 1,"maintenance": 1,"hurryCostModifier": 40,"requiredTech": "Mining",
-		"uniques": []
-	},
-	//Column 2//
-	{
-		"name": "Garden","happiness": 2,"maintenance": 1,"hurryCostModifier": 40,"requiredTech": "Irrigation",
-		"uniques": ["Must be next to [Fresh Water]"],
-	},
 	{
 		"name": "Circus","happiness": 2,"maintenance": 1,"requiredNearbyImprovedResources": ["Camels","Horses"],"requiredTech": "Animal Husbandry"
 	},
@@ -224,17 +285,10 @@
 		"requiredNearbyImprovedResources": ["Stone"],
 		"uniques": ["[+1 Production] from [Stone] tiles [in this city]"],
 	},
-	//Column 4//
 	{
 		"name": "Smelter","production": 1,"maintenance": 1,"hurryCostModifier": 40,"requiredTech": "Iron Working",
 		"requiredNearbyImprovedResources": ["Tin","Copper","Iron"],
 		"uniques": ["[+1 Production] from [Tin] tiles [in this city]","[+1 Production] from [Copper] tiles [in this city]","[+1 Production] from [Iron] tiles [in this city]",],
-	},
-	//Column 5//
-	//Column 6//
-	{
-		"name": "Prison","maintenance": 2,"requiredTech": "Code of Laws"
-		"uniques": ["Removes extra unhappiness from annexed cities","Can only be built <in [Annexed] cities>"],
 	},
 	{
 		"name": "Mint","requiredNearbyImprovedResources": ["Copper","Gold Ore", "Silver"],"requiredTech": "Currency"
@@ -258,7 +312,7 @@
         "uniques": [],
 	},
 	{
-		"name": "The Great Library","science": 5,"isWonder": true,"requiredTech": "Calendar",
+		"name": "The Great Library","science": 5,"isWonder": true,"requiredTech": "Writing",
         "uniques": ["Free Technology"],
 	},
 	{
