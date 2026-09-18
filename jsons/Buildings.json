@@ -173,7 +173,7 @@
 	},
 	//Preservation - Ancient Era
 	{
-		"name": "Grove","science": 2,"faith": 1,"maintenance": 1,"requiredResource": "Specialisation Slot","requiredTech": "Animal Husbandry",
+		"name": "Grove","science": 2,"faith": 1,"maintenance": 1,"requiredResource": "Specialisation Slot","requiredTech": "Calendar",
 		"specialistSlots": {"Steward": 1},
 		"uniques": ["[+1 Science] from [Preserve] tiles [in this city]",]
 	},
