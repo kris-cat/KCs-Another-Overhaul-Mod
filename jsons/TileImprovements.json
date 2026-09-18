@@ -84,6 +84,23 @@
 		"uniques": ["[+1 Food] from [Fresh water] tiles <after discovering [The Plough]>","Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "F"
 	},
+	{
+		"name": "Trading post","gold": 1,"turnsToBuild": 7,"terrainsCanBeBuiltOn": ["Land"],"techRequired": "The Wheel",
+		"uniques": ["[+1 Gold] for each adjacent [Luxury resource]"],
+		"shortcutKey": "T"
+	},
+	{
+		"name": "Preserve","faith": 1,"turnsToBuild": 9,"terrainsCanBeBuiltOn": ["Forest","Rainforest"],"techRequired": "Calendar",
+		"uniques": ["[+1 Faith] <in tiles adjacent to [Mountain] tiles>","[+1 Faith] <in tiles adjacent to [Natural Wonder] tiles>"
+			],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "City Park","happiness": 1,"turnsToBuild": 9,"terrainsCanBeBuiltOn": ["Land"],"techRequired": "Irrigation",
+		"uniques": ["[+1 Culture] for each adjacent [Urban District]","Unavailable <in tiles not adjacent to [City Park] tiles>",
+			"Removes removable features when built"],
+		"shortcutKey": "F"
+	},
 	//Road Improvements
 	{
 		"name": "Road","terrainsCanBeBuiltOn": ["Land"],"turnsToBuild": 4,"techRequired": "The Wheel",
