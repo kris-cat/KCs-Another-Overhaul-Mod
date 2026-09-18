@@ -9,35 +9,35 @@
 		"name":"Scientist",
 		"science":3,
 		"greatPersonPoints": {"Great Scientist": 3},
-		"color": [0,0,255]
+		"color": [42,96,153]
 	},
 	{
 		"name":"Artist",
 		"culture":3,
 		"greatPersonPoints": {"Great Artist": 3},
-		"color": [160,32,240]
+		"color": [150,0,150]
 	},
 	{
 		"name":"Bureaucrat",
 		"greatPersonPoints": {"Great Administrator": 3},
 		"science":2,"culture": 1,
-		"color": [160,32,240]
+		"color": [69,16,148]
 	},
 	{
 		"name":"Diplomat",
-		"culture": 2,"science":1,
-		"color": [160,32,240]
+		"science":1,"culture": 2,
+		"color": [240,81,233]
 	},
 	{
 		"name":"Merchant",
 		"greatPersonPoints": {"Great Merchant": 3},
 		"gold":3,
-		"color": [255,215,0]
+		"color": [255,191,0]
 	},
 	{
 		"name":"Captain",
-		"food":2,"gold":1,
-		"color": [191,0,65]
+		"gold":2,"food":1,
+		"color": [41,157,180]
 	}
 	{
 		"name":"Entertainer",
@@ -46,13 +46,13 @@
 	},
 	{
 		"name":"Steward",
-		"science":2,"faith":1,
-		"color": [255,255,0]
+		"faith":2,"science":1
+		"color": [129,212,26]
 	},
 	{
 		"name":"Gardner",
-		"culture":2,"gold":1,
-		"color": [255,255,0]
+		"happiness":2,"culture":1,
+		"color": [21,132,102]
 	},
 	{
 		"name":"Engineer",
@@ -65,5 +65,10 @@
 		"greatPersonPoints": {"Great General": 3},
 		"production":2,"gold":1,
 		"color": [241,13,12]
+	},
+	{
+		"name":"Shipmaster",
+		"production":2,"gold":1,
+		"color": [191,0,65]
 	},
 ]
