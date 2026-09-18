@@ -152,7 +152,7 @@
 	},
 	{
 		"name": "Battering Ram","unitType": "Siege Unit","movement": 2,"strength": 10,"cost": 60,
-		"requiredTech": "Masonry","requiredResource": "Copper",
+		"requiredTech": "Bronze Working","requiredResource": "Copper",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus","[-1] Sight", "Can only attack [City] units"],
 		"attackSound": "nonmetalhit",
 	},
@@ -202,7 +202,7 @@
 	{
 		"name": "Catapult","unitType": "Siege Unit","movement": 2,"range": 2,"strength": 16,"rangedStrength": 20,"cost": 100,
 		"requiredTech": "Construction","upgradesTo": "Trebuchet",
-		"uniques": ["[-50]% Strength <vs [non-[City]]>","[+100]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
+		"uniques": ["[-50]% Strength <vs [non-[City]]>","[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
 			"Must set up to ranged attack", "[-1] Sight", "Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "throw"
@@ -210,7 +210,7 @@
 	{
 		"name": "Ballista","replaces": "Catapult","uniqueTo": "Rome","unitType": "Siege Unit","movement": 2,"range": 2,"strength": 16,"rangedStrength": 24,"cost": 100,
 		"requiredTech": "Construction","upgradesTo": "Trebuchet",
-		"uniques": ["[+50]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
+		"uniques": ["[+100]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
 			"Must set up to ranged attack", "[-1] Sight", "Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "throw"
@@ -292,7 +292,7 @@
 	{
 		"name": "Trebuchet","unitType": "Siege Unit","movement": 2,"range": 2,"strength": 21,"rangedStrength": 30,"cost": 120,
 		"requiredTech": "Mechanics",
-		"uniques": ["[-50]% Strength <vs [non-[City]]>","[+100]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
+		"uniques": ["[-50]% Strength <vs [non-[City]]>","[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
 			"Must set up to ranged attack", "[-1] Sight", "Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "throw"
@@ -300,7 +300,7 @@
 	{
 		"name": "Fire Dragon Engine","replaces": "Trebuchet","uniqueTo": "China","unitType": "Siege Unit","movement": 2,"range": 3,"strength": 21,"rangedStrength": 36,"cost": 140,
 		"requiredTech": "Alchemy",
-		"uniques": ["[-50]% Strength <vs [non-[City]]>","[+100]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
+		"uniques": ["[-50]% Strength <vs [non-[City]]>","[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
 			"Must set up to ranged attack", "[-1] Sight"],
 		"hurryCostModifier": 20,
 		"attackSound": "throw"
